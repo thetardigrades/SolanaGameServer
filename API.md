@@ -19,6 +19,8 @@ Contract APIs:
 * Variant setting (for turninging on/off features via DAO)
 * 
 
+Integrate unity-solana-wallet
+
 Database-like APIs? (via SQLite3 or query engine over data?)
 https://stackoverflow.com/questions/2011724/whats-the-best-database-for-embedded
 
