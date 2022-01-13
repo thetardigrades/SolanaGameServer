@@ -1,5 +1,7 @@
 Solana Game Server is the first decentralized Game Server designed for web3 gaming.
 
+It can be thought of like a Gaming Virtual Machine running on the Solana network.
+
 The problem SGS tries to solve is to make it possible and easy for traditional game developers using tools such as Unity, Unreal, etc. to use blockchain/crypto mechanics to build novel games ontop of the Solana platform.
 
 This includes features of a game server such as maintaining decentralized, tamperproof game state, and providing secure/trustless execution by running on top of Solana.
