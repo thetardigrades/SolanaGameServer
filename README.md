@@ -29,6 +29,11 @@ Code will be stored here and deployed to Solana mainnet periodically.
 # Issues / Feature Requests
 Are you a game developer looking for a feature or solution for your game's backend? Add a GitHub issue or reach out directly.
 
+# TODO
+ * Review Unity Multiplay API as an API starting point.
+ * Propose Game Developer-oriented APIs for proposed features
+
+
 # Help wanted
 Are you an experienced Rust programmer looking for Solana exposure or a Game developer looking for the same? Reach out.
 
