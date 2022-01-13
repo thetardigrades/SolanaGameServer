@@ -1,10 +1,12 @@
 Solana Game Server is the first decentralized Game Server designed for web3 gaming.
 
-The problem SolGames aims to solve is to make it possible and easy for traditional game developers using tools such as Unity, Unreal, etc. to use blockchain/crypto mechanics to build novel games ontop of the Solana platform.
+The problem SGS tries to solve is to make it possible and easy for traditional game developers using tools such as Unity, Unreal, etc. to use blockchain/crypto mechanics to build novel games ontop of the Solana platform.
 
-SolGames provide a series of on-chain APIs and infrastructure to enable developers to rapidly build new blockchain experiences without having to directly write or deploy any smart contracts. Game developers should be focused on building the most delightful, engaging, global games - not figuring out decentralized infrastructure.
+This includes features of a game server such as maintaining decentralized, tamperproof game state, and providing secure/trustless execution by running on top of Solana.
 
-Code will be stored here first and published to mainnet periodically. 
+SGS handles the hard bits to provide customizable game server environments for non-crypto game developers.
+
+Code will be stored here and deployed to Solana mainnet periodically.
 
 # Possible features (sorted by priority)
 - Stable, free non-blockchain API for testing
@@ -22,7 +24,6 @@ Code will be stored here first and published to mainnet periodically.
 - Auction mechanics
 - Standardized Tokenomics structures
 
-
 # Issues / Feature Requests
 Are you a game developer looking for a feature or solution for your game's backend? Add a GitHub issue or reach out directly.
 
@@ -30,5 +31,17 @@ Are you a game developer looking for a feature or solution for your game's backe
 Are you an experienced Rust programmer looking for Solana exposure or a Game developer looking for the same? Reach out.
 
 # License
-SolGames is owned and operated by Tardigrade Life Sciences, Inc.
+SGS is owned and operated by Tardigrade Life Sciences, Inc. Contact hi@tardigrades.store for licensing/use options.
 
+# FAQ
+## How can I help?
+Reach out if you're a game developer interested in using our platform.
+
+## How do I request features?
+Make an Issue. Issues with offered eng-assistance are prioritized.
+
+## What's the devnet address?
+Not launched yet.
+
+## Whats with the Tardigrades?
+They're cute - see tardigrades.online.
