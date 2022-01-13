@@ -8,6 +8,15 @@ Game Server APIs:
 * Announcements (via temporary memos to transaction history)
 * Marketplace (via Serum)
 
+
+Note: I think the least-complex starting path for significant storage would be transient memos stored on arweave via transaction history. 
+These can't be used in-contract, but could be read-in by the client for storing historical information within a game.
+Contract APIs:
+* Configure Game rules
+* Execute game-step
+* Configure player stats
+* 
+
 Database-like APIs? (via SQLite3 or query engine over data?)
 https://stackoverflow.com/questions/2011724/whats-the-best-database-for-embedded
 
@@ -15,3 +24,6 @@ Redis-like API? High-efficiency object storage and compute.
 
 Paid APIs:
 * Extract-Transform-Load APIs for doing analytics on your games
+
+Questions:
+What're the most common on-chain actions for games?
