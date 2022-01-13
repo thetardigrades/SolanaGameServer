@@ -25,6 +25,7 @@ Code will be stored here and deployed to Solana mainnet periodically.
 - Breeding mechanics
 - Auction mechanics
 - Standardized Tokenomics structures
+- Gambling
 
 # Issues / Feature Requests
 Are you a game developer looking for a feature or solution for your game's backend? Add a GitHub issue or reach out directly.
