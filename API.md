@@ -8,5 +8,10 @@ Game Server APIs:
 * Announcements (via temporary memos to transaction history)
 * Marketplace (via Serum)
 
+Database-like APIs? (via SQLite3 or query engine over data?)
+https://stackoverflow.com/questions/2011724/whats-the-best-database-for-embedded
+
+Redis-like API? High-efficiency object storage and compute.
+
 Paid APIs:
 * Extract-Transform-Load APIs for doing analytics on your games
