@@ -15,6 +15,8 @@ Contract APIs:
 * Configure Game rules
 * Execute game-step
 * Configure player stats
+* Affect environment
+* Variant setting (for turninging on/off features via DAO)
 * 
 
 Database-like APIs? (via SQLite3 or query engine over data?)
