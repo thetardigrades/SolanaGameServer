@@ -47,3 +47,6 @@ Not launched yet.
 
 ## Whats with the Tardigrades?
 They're cute - see tardigrades.online.
+
+## Where's the pitch deck / whitepaper?
+https://docs.google.com/document/d/15X4FWa8i-tR7nsjn_CncPbc80zsGmiMD9bMKOUmTzzI/edit#
