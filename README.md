@@ -1,4 +1,4 @@
-SolGames is a decentralized Game Server platform.
+Solana Game Server is the first decentralized Game Server designed for web3 gaming.
 
 The problem SolGames aims to solve is to make it possible and easy for traditional game developers using tools such as Unity, Unreal, etc. to use blockchain/crypto mechanics to build novel games ontop of the Solana platform.
 
