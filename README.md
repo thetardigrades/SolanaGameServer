@@ -103,6 +103,11 @@ Avoiding the noise - checkout tardigrades.online for contact info, or make an is
 ## Where's the latest info?
 See Notes.md.
 
+## What's the business model?
+Tentatively: Selling/providing Game passes (crypto payment or CC) which fund Solana-based transactions in your game's metaverse
+for your web2 users. You can have cool NFT-generating mechanics and collectibles combined with
+a dirt-cheap, global-scale ~2FPS, 2MB gameserver / global state machine.
+
 ## Why is there a LICENSE?
 Short-answer: To balance a need for openness with a need for sustainable development funding.
 
