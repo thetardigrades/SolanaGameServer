@@ -7,11 +7,18 @@ Features: Unpredictable mint index, whitelists, captcha integration,
 "Larger collections and hide-and-reveal drops: It is possible to create super large and hide-and-reveal drops by specifying a single hash, which is used by all mints. While the hash is the same across all mints, the name of each item is specified with a unique number, **allowing an off-chain process to later update the metadata with the actual item.**"
 ^All on-chain including initialization logic and system parameters?
 
+https://hackmd.io/@levicook/HJcDneEWF
 Done git clone git@github.com:metaplex-foundation/metaplex.git
 npm install -g ts-node
+done yarn install
+; You know you're "bleeding edge" when you immediately start finding issues
+; https://github.com/metaplex-foundation/metaplex/issues/1537
 
 platform-level note: Could do a hybrid approach - generate & push contract logic per-app to create an 'app in a box' on-chain combined with shared on-chain infrastructure. Platform apps get cheap rail-access?
 
+
+-----------
+https://hackmd.io/@levicook/HJcDneEWF # Start here.
 
 
 ## References
