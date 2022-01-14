@@ -38,6 +38,8 @@ For best understanding of the current state of this project, see todo_and_status
 *Solana Game Server is not directly owned or maintained by Solana Labs. The name 'Solana Game Server'
 is used instead of a codename to reduce ambiguity. Name suggestions welcome.
 
+permalink: code.tardigrades.fun
+
 # Possible features (sorted by priority)
 - Echo + Log and Broadcast Messages
 - Stable, free non-blockchain API for testing
