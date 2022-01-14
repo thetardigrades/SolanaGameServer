@@ -7,7 +7,9 @@ Features: Unpredictable mint index, whitelists, captcha integration,
 "Larger collections and hide-and-reveal drops: It is possible to create super large and hide-and-reveal drops by specifying a single hash, which is used by all mints. While the hash is the same across all mints, the name of each item is specified with a unique number, **allowing an off-chain process to later update the metadata with the actual item.**"
 ^All on-chain including initialization logic and system parameters?
 
-platform-level note: Could do a hybrid approach - generate & push contract logic per-app to create an 'app in a box' on-chain combined with shared on-chain infrastructure. Platform apps get free rail-access?
+
+
+platform-level note: Could do a hybrid approach - generate & push contract logic per-app to create an 'app in a box' on-chain combined with shared on-chain infrastructure. Platform apps get cheap rail-access?
 
 
 
@@ -16,7 +18,6 @@ Excellent CMv2 walkthrough (1/10/22): https://twitter.com/marcelc63/status/14805
 https://github.com/kevinfaveri/solana-candy-factory
 https://github.com/exiled-apes/candy-machine-mint
 Bot to post to Discord when NFTs sell: https://github.com/milktoastlab/SolanaNFTBot
-
 
 
 # Breed minted tardigrades

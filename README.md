@@ -129,15 +129,21 @@ regardless of whether or not the software is directly monetized (e.g. for acquis
 
 Please note, TLS is not presently associated with any venture funding as of January 2022.
 
-## Can I fork/self-host and sell parts of this?
-No, nor should you. Aside from legalities, it's not an economically useful thing to do. It takes
-time and money to build & maintain any form of infrastructure. With any software infrastructure
-(including B2B-friendly smart contracts, such as this), it takes time and effort to support forks.
-The software development time-cost and trust-cost associated with using an unofficial fork exceeds
-the relative benefit of forking - particularly since patches are welcome.
+## Can I fork/self-host and sell parts of this anyway?
+Technically yes, but should you, probably not. Aside from legalities, it's not an economically
+useful thing to do. It takes time and money to build & maintain any form of infrastructure.
+With any software infrastructure (including B2B-friendly smart contracts, such as this), it takes
+time and effort to support personal forks - even direct copy-pastes.
+
+The software development time, security and trust-costs associated with using an unofficial fork
+exceeds the relative benefit of forking - particularly since patches (security and beta features)
+are welcome.
 
 Self-hosting is also expensive - it can cost thousands of dollars to run QA against the new release
-and.
+and hundreds of dollars to deploy new versions of code to mainnet.
+
+It's also kinda a job itself to self-host (system reliability engineering / infrastructure engineering).
+The contributors(s) of this codebase should enjoy building scalable infrastructure.
 
 Companies who are interested in direct-support (e.g. integrating your game's mechanics) - make your
 pitch in the public issues or feature requests. If it's of interest to anyone (either me or anyone
@@ -146,6 +152,12 @@ I can pay to implement the feature), then it will be built & integrated on a B2B
 Only trusted code will be supported, and will be behind appropriate versioning, testing, and CI/CD infra.
 
 Private or limited-release feature launches are also supported for an additional fee (consulting).
+
+## Recommended tools and alternatives?
+(recommend your alternative tool/projects here via a pull request)
+Metaplex - https://hackmd.io/@levicook/HJcDneEWF
+
+Also, https://github.com/paul-schaaf/awesome-solana.
 
 ## Where's the pitch deck / whitepaper?
 https://docs.google.com/document/d/15X4FWa8i-tR7nsjn_CncPbc80zsGmiMD9bMKOUmTzzI/edit#

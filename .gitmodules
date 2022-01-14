@@ -1,3 +1,6 @@
 [submodule "tardigrades-mint-machine"]
 	path = tardigrades-mint-machine
 	url = https://github.com/GabeDottl/Tardigrades-Mint-Machine
+[submodule "nextjs-candy-machinev2"]
+	path = nextjs-candy-machinev2
+	url = https://github.com/GabeDottl/next-candy-machinev2

@@ -21,9 +21,6 @@ Choose your order of operations - bid on execution
 GameSolPool? executes (free) as long as Pool has money. Pool used to run game executions.
 Invite stick + group ban (off-chain vote)
 
-
-
-
 More interesting on-chain features:
 Affect character gameplay state
 Affect environment gameplay state
@@ -55,3 +52,6 @@ External References:
 * https://www.soldev.app/
 * Candy Machine v2 (Multiplex NFT minter): https://twitter.com/marcelc63/status/1480570145193951234
 * Excellent Anchor IDL Tweet thread: https://twitter.com/jozanza/status/1481098724008992772
+
+# Miscellaneous news
+"Integrating blockchain in games well is so hard is because most of the infrastructure that’s actually needed doesn’t exist, isn’t mature enough, or isn’t great for games" - https://venturebeat.com/2021/05/20/forte-raises-185m-at-1b-valuation-for-blockchain-game-platform/
