@@ -165,8 +165,32 @@ https://docs.google.com/document/d/15X4FWa8i-tR7nsjn_CncPbc80zsGmiMD9bMKOUmTzzI/
 ## Why Solana?
 "From all the “Ethereum killers”, Solana emerged in 2021 as the hottest one, with the most engaged developer community. Through a unique blend of eight technological innovations (including Proof of History), it alleviates many of the problems that plague other blockchains and has been able to reach record levels of speed and transaction volumes." - source: https://learn.figment.io/protocols/solana
 
+In effect, you have faster, cheaper, more reliable compute (but waaaay less volatile memory)
+than other blockchains.
+
+Most other inexpensive blockchain optimize more towards maximizing memory - which makes them good for
+NFTs, but bad for complex games.
+
+Unfortunately, Ethereums ease-of-use is partially due to its permissiveness which is substantially greater
+than Solana (somewhat analogous to programming in Python on ethereum with fixes happening at the VM-level
+vs. low-level C embedded-systems-style programming on Solana). Anchor helps a lot with developer ergonomics, but doesn't
+change the intrinsic complexity of low-level distributed systems development.
+
 ## Why gaming middleware?
 Game development has it's own unique requirements for backend systems to facilitate game mechanics (breeding, battle systems, characters, items, etc.)
 
 ## Whats with the Tardigrades?
 They're cute - see https://www.tardigrades.online.
+
+## Is Solana performant enough for my game idea?
+As the software infrastructure and best practices evolve, SGS should allow game developers to
+have a high-speed, low-bandwidth global game engine @ Solana performance levels. See
+Solana labs demo:
+https://github.com/solana-labs/break
+
+Note that the demo is using a 'test' network - actual mainnet performance will take months-to-years
+to match. Good starting games should rely on game mechanics that can take advantage of ~1mb of shared
+global state easily and that cost-for-compute (including deserialization) is high.
+
+Looking at gameplay mechanics from existing crypto games is a good starting point for understanding
+how to take advantage of a 'programmable trustless platform' (i.e. a smart contract blockchain, like Ethereum or Flow).

@@ -4,3 +4,9 @@
 [submodule "nextjs-candy-machinev2"]
 	path = nextjs-candy-machinev2
 	url = https://github.com/GabeDottl/next-candy-machinev2
+[submodule "metaplex.git"]
+	path = metaplex.git
+	url = git@github.com:metaplex-foundation/metaplex.git
+[submodule "metaplex"]
+	path = metaplex
+	url = git@github.com:metaplex-foundation/metaplex.git
