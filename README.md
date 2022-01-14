@@ -1,7 +1,9 @@
-Solana Game Server is the first decentralized Game Server designed for game developers & web3.
+Solana Game Server* is the first decentralized Game Server designed for game developers & web3.
+
+Web2 gaming today is entrenched by large game studios and aging freemium model franchises.
 
 Web2 game models suck and web3 has the potential to unlock novel differentiation and monetization
-mechanisms for small-games. The most popular 'crypto games' today are limited in their complexity
+mechanisms for small and large games alike. The most popular 'crypto games' today are limited in their complexity
 by their blockchain (Ethereum) or the complexity of building secure, interesting blockchain-based
 mechanics (Solana et al).
 
@@ -10,12 +12,16 @@ web3 with Solana by building the best, secure game-oriented smart contracts on S
 traditional game developers to leverage.
 
 Code will be published here and deployed to Solana mainnet periodically. Fees (TBD) will be baked
-into the smart contract. The contract will allow creating custom coins and operating within the
-Solana Game Server. Code & documentation is public by-default to encourage community involvement.
+into the smart contract. A CDN + Endpoint solution will be provided as a service using said fees.
+The contract will allow creating custom coins and operating within the Solana Game Server. Code
+& documentation is public by-default to encourage community involvement.
 
 This will all be exposed either on-chain directly or via a SaaS generating & deploying contracts on-demand.
 
 Possible games: card battles, turn-based X, breeding, land ownership, metaverse avatar customization
+
+*Solana Game Server is not directly owned or maintained by Solana Labs. The name 'Solana Game Server'
+is used instead of a codename to reduce ambiguity. Name suggestions welcome.
 
 # Possible features (sorted by priority)
 - Echo + Log and Broadcast Messages
@@ -46,7 +52,14 @@ SGS is owned and operated by Tardigrade Life Sciences, Inc. Contact hi@tardigrad
 
 # FAQ
 ## How do I request features?
-Make an Issue. Issues with offered eng-assistance are prioritized.
+Make an Issue or a pull request. Issues with offered eng-assistance are prioritized. If you want specific features, you can
+'vote' for them by mkaing an issue (lower ranking) or adding them directly to feature_requests.md.
+
+## Contributor agreement
+Contributions are welcome. TLS maintains perpetual license to use any code submitted to the codebase in perpetuity under the
+existing license.
+
+If your legal department requires more info or formalization, contact me.
 
 ## What's the devnet address?
 Not launched yet.
@@ -76,9 +89,12 @@ Avoiding the noise - checkout tardigrades.online for contact info, or make an is
 See Notes.md.
 
 ## Why is there a LICENSE?
-Writing good software is hard and I'd like Tardigrade Life Sciences, Inc to be able to get funding from users.
+Writing good software is hard and I'd like Tardigrade Life Sciences, Inc to be able to get funding from users. Also, businesses
+(e.g. game studios, institutions) like working with other businesses with formal, contractual relationships. By giving leaving
+ownership & management of these contracts to Tardigrade Life Sciences, my expectation/hope is to save many lost engineering
+hours by game developers trying to build on Solana.
 
-Many deployed smart contracts pay-for-use, yet private source - which feels a bit absurd for a 'trustless' network. I respect
+Many deployed smart contracts are pay-for-use, yet private source - which is undesireable for a 'trustless' network. I respect
 wanting to maintain competitive edge by not sharing information with competitors, but I think at this stage in the ecosystem,
 it's preferable to be trusted as the 'official' source over other projects which may (illegally) fork and commercialize without
 licensing.

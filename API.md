@@ -9,7 +9,6 @@ Game Server APIs:
 * Announcements (via temporary memos to transaction history)
 * Marketplace (via Serum)
 
-
 Note: I think the least-complex starting path for significant storage would be transient memos stored on arweave via transaction history. 
 These can't be used in-contract, but could be read-in by the client for storing historical information within a game.
 Contract APIs:
@@ -25,7 +24,6 @@ Nakama, Photon, and NodeJS are commonly used for multiplayer
 Massive Online Battle Arenas could be interesting on Solana.
 * Up to N players with M bits of data and simple operations.
 * Tournaments
-
 
 Follow graph - sign memo to 'follow' other users (off chain)
 
