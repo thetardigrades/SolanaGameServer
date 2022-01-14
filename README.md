@@ -14,6 +14,8 @@ Game developers are held back from crypto by a few holdups:
    and terrible in comparison to web2 gaming infrastructure.
 3) Complexity of the constantly evolving language of gamefi/defi/nft/crypto/blockchain space is
    dizzying to most people - game developers need a translation layer.
+4) Crypto is still broadly confusing, sketchy and a big target for hackers - which makes it
+   harder for newer blockchain developers to be successful with web2 strategies.
 
 SGS endeavors to make it easier for game developers to take their web2 games and adapt them to
 web3 with Solana by building the best, secure, game-oriented smart contracts on Solana.
@@ -182,6 +184,14 @@ Unfortunately, Ethereums ease-of-use is partially due to its permissiveness whic
 than Solana (somewhat analogous to programming in Python on ethereum with fixes happening at the VM-level
 vs. low-level C embedded-systems-style programming on Solana). Anchor helps a lot with developer ergonomics, but doesn't
 change the intrinsic complexity of low-level distributed systems development.
+
+## Is there really a market for crypto gaming?
+Maybe? Looking at how many web2 freemium games monetize (buying in-app, digital goods) and 
+* The internet seems to agree: https://trends.google.com/trends/explore?geo=US&q=gamefi,%2Fg%2F11fpjwyy5z,%2Fg%2F11f345g8p9,NBA%20TopShot
+* VC capital seems to agree with its funding (see recent rounds).
+* Economics of NFTs, supply of game developer talent, plus perpetual, global hunger for new content
+
+Blockchain interest over time: https://trends.google.com/trends/explore?date=today%205-y&q=blockchain,ethereum,solana,polygon,matic%20network
 
 ## Why gaming middleware?
 Game development has it's own unique requirements for backend systems to facilitate game mechanics (breeding, battle systems, characters, items, etc.)
