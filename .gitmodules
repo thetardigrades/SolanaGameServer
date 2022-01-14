@@ -1,0 +1,3 @@
+[submodule "tardigrades-mint-machine"]
+	path = tardigrades-mint-machine
+	url = https://github.com/GabeDottl/Tardigrades-Mint-Machine

@@ -1,1 +1,1 @@
-January: Card building game & API
+January 2022: Card building game & API. See card_gaming.md and card_gaming_implementation_notes.md.

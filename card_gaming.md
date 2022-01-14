@@ -1,6 +1,5 @@
 # Goal
-Building card games with NFTs using Metaplex feels like a probable common use-case
-- and a useful starting point. Minimize metaplex functionality-duplication, maximize use.
+Building card games with NFTs using Metaplex feels like a probable common use-case - and a useful starting point. Minimize metaplex functionality-duplication, maximize use.
 
 # Possible Needs
 * Define a deck of cards with counts and other universe*-specific attributes
@@ -42,7 +41,7 @@ There are 4 key functions:
 4) Exchange tardigrades (metaplex?)
 
 It'd be fun if claws are made default exchange currency for tardigrade NFTs. They a
-NFT which carries a value whose.
+NFT which carries a value which is defined at mint-time by the current context.
 
 Target bottom of the market with tardigrade art/NFTs which can grow in strength over
 time - they have 'intrinsic value' in the game/metaverse. Should be pay-to-earn
@@ -58,6 +57,11 @@ Fun app development lifcycle (ALC) ideas:
 Fun software development lifecycle (SDLC) ideas:
 * Editor is terminal or schema-based rather than web UI - better ergo & easier
 * Tokenomics modeling & projection as a service
+* Web-game fixture for manually testing contracts and game mechanics in a visual way.
+* Having an easy system for upgrading contracts would be awesome
+* Publishing code release artifact to GitHub of deployed program versions and providing
+    options for 'fail over' 
+* https://myactivity.google.com/u/1/myactivity?pli=1 - for the Tardigrades metaverse?
 
 Ideal features:
 * Minimum data & contained within Solana's tiny compute limits
@@ -66,4 +70,3 @@ Ideal features:
 * Long-term time-based effects
 * Cross-game card reuse/compatibility
 * Functional backend+storage purely on solana+arweave (minus client assets)
-
