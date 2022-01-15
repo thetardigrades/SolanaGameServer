@@ -1,1 +1,30 @@
-{"name": "Africa.Cairo.Egypt.Ibrahim.1", "description": "T1: A tardigrade by Ibrahim from Cairo, Egypt, Africa.", "image": "https://tardigrades.art/XXX", "external_url": "https://tardigrades.art/XXX", "properties": {"files": [{"uri": "https://tardigrades.art/1.ext", "type": "image/png"}, {"uri": "https://tardigrades.art/1.ext", "type": "unknown", "cdn": true}, {"uri": "https://tardigrades.art/1.ext", "type": "video/mp4"}], "category": "video"}, "attributes": [{"trait_type": "origin", "value": "Cairo, Egypt, Africa"}]}
+{
+  "name": "Africa.Cairo.Egypt.Ibrahim.1",
+  "description": "T1: A tardigrade by Ibrahim from Cairo, Egypt, Africa.",
+  "image": "https://tardigrades.art/XXX",
+  "external_url": "https://tardigrades.art/XXX",
+  "properties": {
+    "files": [
+      {
+        "uri": "https://tardigrades.art/1.ext",
+        "type": "image/png"
+      },
+      {
+        "uri": "https://tardigrades.art/1.ext",
+        "type": "unknown",
+        "cdn": true
+      },
+      {
+        "uri": "https://tardigrades.art/1.ext",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "attributes": [
+    {
+      "trait_type": "origin",
+      "value": "Cairo, Egypt, Africa"
+    }
+  ]
+}

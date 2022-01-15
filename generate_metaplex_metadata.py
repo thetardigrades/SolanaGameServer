@@ -1,6 +1,7 @@
 '''Copyright 2022 by Tardigrade Life Sciences, Inc (tardigrades.online)'''
 
 from glob import glob
+# TODO: Use orjson for performance boost?
 import json
 import os.path
 
@@ -47,7 +48,7 @@ def generate(target_path):
 
       # TODO: get these on-chain & compressed, and standardized.
       d["attributes"] = [{'trait_type': 'origin', 'value': f'{city}, {country}, {continent}'}]
-      metadata_file.write(json.dumps(d))
+      metadata_file.write(f"{json.dumps(d, indent=2)}\n")
     print(metadata_filename)
   print('finished')
 

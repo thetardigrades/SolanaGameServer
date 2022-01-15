@@ -219,6 +219,7 @@ how to take advantage of a 'programmable trustless platform' (i.e. a smart contr
 ## Whats with the Tardigrades?
 They're cute - see https://www.tardigrades.online.
 
-# Like this? Interested in GameFi (blockchain gaming)? 'trustless VR metaverses'?
+# Like this? Interested in GameFi (blockchain gaming)? web3 gaming? 'trustless VR metaverses'?
 Share this with your favorite game developers or ask them what platform-level features they'd like built.
-Don't forget to like & subscribe.
+
+Don't forget to like & subscribe. tardigrades.online
