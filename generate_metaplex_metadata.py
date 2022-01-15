@@ -19,22 +19,24 @@ def generate(target_path):
     with open(metadata_filename, 'w+') as metadata_file:
       # https://docs.metaplex.com/candy-machine-v2/preparing-assets
       d = {
+          # Spec: https://docs.metaplex.com/token-metadata/v1.1.0/specification#token-standards
           'name': image_name,
           "description": f"T{index}: A tardigrade by {artist} from {city}, {country}, {continent}.",
-          "image": "https://arweave.net/26YdhY_eAzv26YdhY1uu9uiA3nmDZYwP8MwZAultcE?ext=jpeg",
+          "image": "https://tardigrades.art/XXX", #"https://arweave.net/26YdhY_eAzv26YdhY1uu9uiA3nmDZYwP8MwZAultcE?ext=jpeg",
           # "animation_url": "https://arweave.net/ZAultcE_eAzv26YdhY1uu9uiA3nmDZYwP8MwuiA3nm?ext=glb",
           # TODO: Cloudflare mirror? Or some decentralized equiv?
           "external_url": "https://tardigrades.art/XXX",
+          # TODO: 
           "properties": {
               "files": [{
-                  "uri": "https://www.arweave.net/abcd5678?ext=png",
+                  "uri": f"https://tardigrades.art/{index}.ext", #www.arweave.net/abcd5678?ext=png",
                   "type": "image/png"
               }, {
-                  "uri": "https://watch.videodelivery.net/9876jkl",
+                  "uri": f"https://tardigrades.art/{index}.ext", #watch.videodelivery.net/9876jkl",
                   "type": "unknown",
                   "cdn": True
               }, {
-                  "uri": "https://www.arweave.net/efgh1234?ext=mp4",
+                  "uri": f"https://tardigrades.art/{index}.ext", #www.arweave.net/efgh1234?ext=mp4",
                   "type": "video/mp4"
               }],
               "category": "video"
