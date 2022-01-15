@@ -13,9 +13,11 @@ def generate(target_path):
     print(path)
     basepath, _ = os.path.splitext(path)
     metadata_filename = f'{basepath}.json'
-    subpath = path[len(target_path):]
+    subpath = path[len(target_path)+1:]
     image_name, _ = os.path.splitext(subpath)
-    continent, city, country, artist, index, _ = image_name.split('.')
+    
+    continent, city, country, artist, index = image_name.split('.')
+    print(f'continent, city, country, artist, index: {(continent, city, country, artist, index)} ')
     with open(metadata_filename, 'w+') as metadata_file:
       # https://docs.metaplex.com/candy-machine-v2/preparing-assets
       d = {
