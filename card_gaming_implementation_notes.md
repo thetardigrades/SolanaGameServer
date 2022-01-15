@@ -20,7 +20,10 @@ https://hackmd.io/@levicook/HJcDneEWF # Start here.
 
 Need to figure out how to generate metadata from filenames. See generate_metaplex_metadata.py.
 
-https://doc.rust-lang.org/book/title-page.html - review
+Building anchor project:
+https://project-serum.github.io/anchor/getting-started/installation.html#build-from-source-for-other-operating-systems
+
+https://doc.rust-lang.org/book/title-page.html - review.
 https://dev.to/dabit3/the-complete-guide-to-full-stack-solana-development-with-react-anchor-rust-and-phantom-3291 - deferred.
 
 ## References

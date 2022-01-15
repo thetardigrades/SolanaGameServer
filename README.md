@@ -93,10 +93,10 @@ Still not launched yet.
 Still not launched yet.
 
 ## Where's the IDL?!?
-Not there.
+Not there yet.
 
-## API locked?
-Nope.
+## Where's the API? Is it locked?
+See API.md for latest work or todo_and_status.md. The API is not yet locked / requests are welcome.
 
 ## Are there tests?
 Where there are APIs, there will be tests.
@@ -164,6 +164,9 @@ I can pay to implement the feature), then it will be built & integrated on a B2B
 Only trusted code will be supported, and will be behind appropriate versioning, testing, and CI/CD infra.
 
 Private or limited-release feature launches are also supported for an additional fee (consulting).
+
+## How to use in my library/unity app/etc.?
+See API & feature__requests.md.
 
 ## Recommended tools and alternatives?
 (recommend your alternative tool/projects here via a pull request)
