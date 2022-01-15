@@ -4,11 +4,12 @@ from glob import glob
 import json
 import os.path
 
+
 def generate(target_path):
   print(f'{__file__}: generate')
   target_path = os.path.abspath(target_path)
   print(f'target_path: {target_path}')
-  for path in glob(os.path.join(target_path, "*png"),recursive=True):
+  for path in glob(os.path.join(target_path, "*png"), recursive=True):
     print(path)
     basepath, _ = os.path.splitext(path)
     metadata_filename = f'{basepath}.json'
@@ -17,19 +18,35 @@ def generate(target_path):
     continent, city, country, artist, index, _ = image_name.split('.')
     with open(metadata_filename, 'w+') as metadata_file:
       # https://docs.metaplex.com/candy-machine-v2/preparing-assets
-      d= {
-        'name': image_name,
-        "description": f"T{index}: A tardigrade by {artist} from {city}, {country}, {continent}.",
-        "image": "https://arweave.net/26YdhY_eAzv26YdhY1uu9uiA3nmDZYwP8MwZAultcE?ext=jpeg",
-        # "animation_url": "https://arweave.net/ZAultcE_eAzv26YdhY1uu9uiA3nmDZYwP8MwuiA3nm?ext=glb",
-        # TODO: Cloudflare mirror? Or some decentralized equiv?
-        "external_url": "https://tardigrades.art/XXX"
+      d = {
+          'name': image_name,
+          "description": f"T{index}: A tardigrade by {artist} from {city}, {country}, {continent}.",
+          "image": "https://arweave.net/26YdhY_eAzv26YdhY1uu9uiA3nmDZYwP8MwZAultcE?ext=jpeg",
+          # "animation_url": "https://arweave.net/ZAultcE_eAzv26YdhY1uu9uiA3nmDZYwP8MwuiA3nm?ext=glb",
+          # TODO: Cloudflare mirror? Or some decentralized equiv?
+          "external_url": "https://tardigrades.art/XXX",
+          "properties": {
+              "files": [{
+                  "uri": "https://www.arweave.net/abcd5678?ext=png",
+                  "type": "image/png"
+              }, {
+                  "uri": "https://watch.videodelivery.net/9876jkl",
+                  "type": "unknown",
+                  "cdn": True
+              }, {
+                  "uri": "https://www.arweave.net/efgh1234?ext=mp4",
+                  "type": "video/mp4"
+              }],
+              "category": "video"
+          }
       }
-      # TODO: get these on-chain & compressed.
+
+      # TODO: get these on-chain & compressed, and standardized.
       d["attributes"] = [{'trait_type': 'origin', 'value': f'{city}, {country}, {continent}'}]
       metadata_file.write(json.dumps(d))
     print(metadata_filename)
   print('finished')
+
 
 if __name__ == '__main__':
   generate(os.path.join(os.path.dirname(__file__), 'sample_data'))
