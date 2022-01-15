@@ -2,7 +2,7 @@
   "name": "Africa.Cairo.Egypt.Ibrahim.1",
   "description": "T1: A tardigrade by Ibrahim from Cairo, Egypt, Africa.",
   "seller_fee_basis_points": 500,
-  "image": "https://tardigrades.art/assets/XXX",
+  "image": "{index}.png",
   "external_url": "https://tardigrades.art/assets/XXX",
   "properties": {
     "files": [
