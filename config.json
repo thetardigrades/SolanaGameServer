@@ -6,16 +6,16 @@
     "expireOnUse": true
   },
   "solTreasuryAccount": "rmJDUHfhfyVSBkPrX6AYDYLG5yh9oWk2Sb7k1tHCQwN",
-  "splTokenAccount": null,
-  "splToken": null,
-  "goLiveDate": "25 Dec 2021 00:00:00 GMT",
-  "endSettings": null,
-  "whitelistMintSettings": null,
-  "hiddenSettings": null,
-  "storage": "arweave-sol",
+  "splTokenAccount": "7ahL3HAW76NCK7tvNXwmyCR1Nzvwjxz37GAaefa6r4EF",
+  "splToken": "5cSmecmjfcQULy5RhRWvFsTsG5TNRdqC4esn7HEewuqs",
+  "goLiveDate": "14 January 2022 00:00:00 GMT",
+  "storage": "arweave",
+  "noMutable": false,
   "ipfsInfuraProjectId": null,
   "ipfsInfuraSecret": null,
   "awsS3Bucket": null,
   "noRetainAuthority": false,
-  "noMutable": false
+  "endSettings": null,
+  "whitelistMintSettings": null,
+  "hiddenSettings": null
 }
