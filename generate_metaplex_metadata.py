@@ -81,10 +81,10 @@ def build(target_path):
   print(f'Created {build_dir}')
   for i, (img, metadata) in enumerate(
       zip(glob(os.path.join(target_path, '*png')), glob(os.path.join(target_path, '*json')))):
-    print(f"src={img}, dst=f'{target_path}/{i}'")
-    print(f"src={metadata}, dst=f'{target_path}/{i}'")
-    shutil.copyfile(src=img, dst=f'{target_path}/{i}.png')
-    shutil.copyfile(src=metadata, dst=f'{target_path}/{i}.json')
+    print(f"src={img}, dst=f'{build_dir}/{i}'")
+    print(f"src={metadata}, dst=f'{build_dir}/{i}'")
+    shutil.copyfile(src=img, dst=f'{build_dir}/{i}.png')
+    shutil.copyfile(src=metadata, dst=f'{build_dir}/{i}.json')
 
 
 if __name__ == '__main__':
