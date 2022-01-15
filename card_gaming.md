@@ -1,6 +1,11 @@
 # Goal
 Building card games with NFTs using Metaplex feels like a probable common use-case - and a useful starting point. Minimize metaplex functionality-duplication, maximize use.
 
+# Inspiration
+Solana's main bottleneck is accessible storage - think of it like programming in assembly
+on a system with accessible memory around 2MB*.
+
+
 # Possible Needs
 * Define a deck of cards with counts and other universe*-specific attributes
 

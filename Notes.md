@@ -62,6 +62,7 @@ External References:
 * https://solarians.click/gallery - excellent example of beautiful, playful, yet incredibly simple Solana game.
   * https://solarians.click/roadmap - roadmap is kinda fluffy becuase decentralized game state is hard to do.
 * https://projectseed.io/ - game-oriented roadmap; good first user?
+* https://github.com/bmresearch/Solnet - "Solana's .NET SDK and integration library."
 
 # Miscellaneous news
 "Integrating blockchain in games well is so hard is because most of the infrastructure that’s actually needed doesn’t exist, isn’t mature enough, or isn’t great for games" - https://venturebeat.com/2021/05/20/forte-raises-185m-at-1b-valuation-for-blockchain-game-platform/

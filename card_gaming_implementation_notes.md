@@ -16,10 +16,12 @@ done yarn install
 
 platform-level note: Could do a hybrid approach - generate & push contract logic per-app to create an 'app in a box' on-chain combined with shared on-chain infrastructure. Platform apps get cheap rail-access?
 
-
------------
 https://hackmd.io/@levicook/HJcDneEWF # Start here.
 
+Need to figure out how to generate metadata from filenames. See generate_metaplex_metadata.py.
+
+https://doc.rust-lang.org/book/title-page.html - review
+https://dev.to/dabit3/the-complete-guide-to-full-stack-solana-development-with-react-anchor-rust-and-phantom-3291 - deferred.
 
 ## References
 Excellent CMv2 walkthrough (1/10/22): https://twitter.com/marcelc63/status/1480570145193951234
@@ -64,3 +66,6 @@ https://learn.unity.com/tutorial/working-with-animations-and-animation-curves?si
 
 # Miscellaneous current news
 https://solflare.com/academy/solanas-nft-ecosystem/#:~:text=How%20do%20Solana%20NFTs%20work%3F%20Solana%20NFTs%20are,govern%20how%20tokens%20operate%20on%20the%20Solana%20blockchain.
+
+# Questions
+https://lwus.github.io/metaplex/ - what is this?
