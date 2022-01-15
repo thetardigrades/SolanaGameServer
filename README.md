@@ -202,8 +202,6 @@ Blockchain interest over time: https://trends.google.com/trends/explore?date=tod
 ## Why gaming middleware?
 Game development has it's own unique requirements for backend systems to facilitate game mechanics (breeding, battle systems, characters, items, etc.)
 
-## Whats with the Tardigrades?
-They're cute - see https://www.tardigrades.online.
 
 ## Is Solana performant enough for my game idea?
 As the software infrastructure and best practices evolve, SGS should allow game developers to
@@ -217,3 +215,9 @@ global state easily and that cost-for-compute (including deserialization) is hig
 
 Looking at gameplay mechanics from existing crypto games is a good starting point for understanding
 how to take advantage of a 'programmable trustless platform' (i.e. a smart contract blockchain, like Ethereum or Flow).
+
+## Whats with the Tardigrades?
+They're cute - see https://www.tardigrades.online.
+
+# Like this? Interested in GameFi (blockchain gaming)?
+Share this with your favorite game developers or ask them what platform-level features they'd like built.

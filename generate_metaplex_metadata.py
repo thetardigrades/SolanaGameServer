@@ -1,3 +1,5 @@
+'''Copyright 2022 by Tardigrade Life Sciences, Inc (tardigrades.online)'''
+
 from glob import glob
 import json
 import os.path
@@ -7,15 +9,25 @@ def generate(target_path):
   target_path = os.path.abspath(target_path)
   print(f'target_path: {target_path}')
   for path in glob(os.path.join(target_path, "*png"),recursive=True):
-    # print(path)
-    # subpath = path[len(target_path):]
-    base, _ = os.path.splitext(path)
-    metadata_filename = f'{base}.json'
+    print(path)
+    basepath, _ = os.path.splitext(path)
+    metadata_filename = f'{basepath}.json'
+    subpath = path[len(target_path):]
+    image_name, _ = os.path.splitext(subpath)
+    continent, city, country, artist, index, _ = image_name.split('.')
     with open(metadata_filename, 'w+') as metadata_file:
       # https://docs.metaplex.com/candy-machine-v2/preparing-assets
-      metadata_file.write(json.dumps({
-        'name': ""
-      }))
+      d= {
+        'name': image_name,
+        "description": f"T{index}: A tardigrade by {artist} from {city}, {country}, {continent}.",
+        "image": "https://arweave.net/26YdhY_eAzv26YdhY1uu9uiA3nmDZYwP8MwZAultcE?ext=jpeg",
+        # "animation_url": "https://arweave.net/ZAultcE_eAzv26YdhY1uu9uiA3nmDZYwP8MwuiA3nm?ext=glb",
+        # TODO: Cloudflare mirror? Or some decentralized equiv?
+        "external_url": "https://tardigrades.art/XXX"
+      }
+      # TODO: get these on-chain & compressed.
+      d["attributes"] = [{'trait_type': 'origin', 'value': f'{city}, {country}, {continent}'}]
+      metadata_file.write(json.dumps(d))
     print(metadata_filename)
   print('finished')
 
