@@ -1,5 +1,5 @@
                     TARDIGRADES PUBLIC LICENSE
-                       Version 1, 13 January 2021
+                       Version 1, 13 January 2022
 
  Copyright (C) 2022 Tardigrade Life Sciences, Inc
  contact: hi@tardigrades.store
@@ -12,3 +12,20 @@
 
                             Preamble
 The Tardigrades Public License is a paid license. If you wish to use this code, contact hi@tardigrades.store
+
+                            Body
+All data in this directory and subdirectories is 
+
+                            Modifications
+Any modifications to the code must first be published to the official
+Solana Games Repository (https://github.com/GabeDottl/Solana-Game-Server) by the original author.
+
+The author grants Tardigrade Life Sciences, Inc and licensees of this license
+rights to use the original code and any modifications thereof in perpetuity. Beyond this,
+the author maintains all rights to use code modifications they authored outside of this
+agreement and the context of this repository.
+
+                            Modifications to this LICENSE
+All license modifications and exceptions must first be approved and published to the official
+Solana Games Repositiory (https://github.com/GabeDottl/Solana-Game-Server).
+

@@ -86,24 +86,6 @@ Execution time: 0h:00m:07s sec
 ; Discord Metaplex Candy Machinev2 Discord subchannel!!! https://discord.com/channels/848060988636921856/898625218426339448
 Shame it's hard to inline paste into markdown docs from Visual Studio Code
 
-Oooh - Cloudflare Images Now Available to Everyone (how to use Cloudflare as an Image CDN)
-https://blog.cloudflare.com/announcing-cloudflare-images/
-curl --request POST \
-  --url https://api.cloudflare.com/client/v4/accounts/:account_tag/images/v1 \
-  --header 'Authorization: Bearer :token' \
-  --form file=@./sample_data/build/0.png
-
-https://learning.postman.com/docs/sending-requests/authorization/#bearer-token
-
-Cloudflare Api Discovery
-https://www.postman.com/sw33tteam/workspace/explore/documentation/6052551-a795ed78-ca76-465f-acf1-de68c67edbdf
-
-Cloudflare Client API v4
-https://documenter.getpostman.com/view/10394726/SzYbxHEm
-
-The Tardigrades postman team:
-https://app.getpostman.com/join-team?invite_code=9bf34a63db6aff5429b563bb005806e4
-
 
 ## TODO: for SGS, https://spl.solana.com/token#example-wrapping-sol-in-a-token
 ## Miscellaneous
