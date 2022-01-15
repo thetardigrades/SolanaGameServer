@@ -1,3 +1,4 @@
+# Overview
 Original source: https://github.com/megaelius/CAI/blob/6769be400d73f67d8c00547db8bf9fdb8dfe1ecc/lab2/arxiv_abs/arxiv/physics.updates.on.arXiv.org/001497
 
 Finding life on other worlds is a fascinating area of astrobiology and planetary sciences. Presently,
@@ -20,6 +21,7 @@ minimum value 0 (= tardigrades cannot survive) and maximum 1 (= tardigrades will
 respective state). Values between 0 and 1 indicate a percentage chance of the active or cryptobiotic
 tardigrades surviving on a given exoplanet. 
 
+# Tardigrade Life Sciences, Inc
 Tardigrade Life Sciences, Inc (tardigrades.online) likes tardigrades.
 
 Tardigrada is an ancient phylum (~600 million years old) which can be considered a continuous,
