@@ -46,7 +46,45 @@ https://docs.civic.com/candy-machine-integration/adding-captcha-to-candy-machine
 RunNode RPC endpoint:
 https://app.runnode.com/projects
 
-# TODO: for SGS, https://spl.solana.com/token#example-wrapping-sol-in-a-token
+## Current status
+`
+❯ ts-node ~/code/SGS/metaplex/js/packages/cli/src/candy-machine-v2-cli.ts upload -e devnet -k ~/dotfiles/config/solana-wallets/devnet.json -cp ~/code/SGS/config.json -c tmp-cache ~/code/SGS/sample_data/build -l DEBUG
+setting the log value to: DEBUG
+wallet public key: DDe72EQdVnNQMH812CNv2Ac7WZ83B5SbrtRWYjc26HXm
+program id from anchor cndy3Z4yapfJBmL3ShUp5exZKqR3z33thTzeNMm2gRZ
+Beginning the upload for 3 (img+json) pairs
+started at: 1642262453827
+initializing candy machine
+Error deploying config to Solana network. RangeError: indeterminate span
+    at Structure.getSpan (/Users/gabedottl/code/SGS/metaplex/js/node_modules/buffer-layout/lib/Layout.js:1221:13)
+    at Structure.encode (/Users/gabedottl/code/SGS/metaplex/js/node_modules/buffer-layout/lib/Layout.js:1267:23)
+    at InstructionCoder._encode (/Users/gabedottl/code/SGS/metaplex/js/packages/cli/node_modules/@project-serum/anchor/src/coder/instruction.ts:85:24)
+    at InstructionCoder.encode (/Users/gabedottl/code/SGS/metaplex/js/packages/cli/node_modules/@project-serum/anchor/src/coder/instruction.ts:68:17)
+    at /Users/gabedottl/code/SGS/metaplex/js/packages/cli/node_modules/@project-serum/anchor/src/program/namespace/index.ts:51:56
+    at ix (/Users/gabedottl/code/SGS/metaplex/js/packages/cli/node_modules/@project-serum/anchor/src/program/namespace/instruction.ts:43:15)
+    at txFn (/Users/gabedottl/code/SGS/metaplex/js/packages/cli/node_modules/@project-serum/anchor/src/program/namespace/transaction.ts:17:14)
+    at Object.rpc [as initializeCandyMachine] (/Users/gabedottl/code/SGS/metaplex/js/packages/cli/node_modules/@project-serum/anchor/src/program/namespace/rpc.ts:16:18)
+    at createCandyMachineV2 (/Users/gabedottl/code/SGS/metaplex/js/packages/cli/src/helpers/accounts.ts:149:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+upload was not successful, please re-run. RangeError: indeterminate span
+    at Structure.getSpan (/Users/gabedottl/code/SGS/metaplex/js/node_modules/buffer-layout/lib/Layout.js:1221:13)
+    at Structure.encode (/Users/gabedottl/code/SGS/metaplex/js/node_modules/buffer-layout/lib/Layout.js:1267:23)
+    at InstructionCoder._encode (/Users/gabedottl/code/SGS/metaplex/js/packages/cli/node_modules/@project-serum/anchor/src/coder/instruction.ts:85:24)
+    at InstructionCoder.encode (/Users/gabedottl/code/SGS/metaplex/js/packages/cli/node_modules/@project-serum/anchor/src/coder/instruction.ts:68:17)
+    at /Users/gabedottl/code/SGS/metaplex/js/packages/cli/node_modules/@project-serum/anchor/src/program/namespace/index.ts:51:56
+    at ix (/Users/gabedottl/code/SGS/metaplex/js/packages/cli/node_modules/@project-serum/anchor/src/program/namespace/instruction.ts:43:15)
+    at txFn (/Users/gabedottl/code/SGS/metaplex/js/packages/cli/node_modules/@project-serum/anchor/src/program/namespace/transaction.ts:17:14)
+    at Object.rpc [as initializeCandyMachine] (/Users/gabedottl/code/SGS/metaplex/js/packages/cli/node_modules/@project-serum/anchor/src/program/namespace/rpc.ts:16:18)
+    at createCandyMachineV2 (/Users/gabedottl/code/SGS/metaplex/js/packages/cli/src/helpers/accounts.ts:149:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Execution time: 0h:00m:07s sec
+`
+; Note: Using aws
+; Pausing trying to get metaplex working on devnet. aws: https://s3.console.aws.amazon.com/s3/buckets/tardigrades-bucket?region=us-east-2&tab=properties
+; TODO: https://github.com/ArweaveTeam/arweave
+
+## TODO: for SGS, https://spl.solana.com/token#example-wrapping-sol-in-a-token
+## Miscellaneous
 $ spl-token transfer $SGS 50 $SGSACCOUNT
 Transfer 50 tokens
   Sender: 7UX2i7SucgLMQcfZ75s3VXmZZY4YRUyJN9X1RgfMoDUi
@@ -71,8 +109,40 @@ Bot to post to Discord when NFTs sell: https://github.com/milktoastlab/SolanaNFT
 
 
 # Breed minted tardigrades
+## Current status
+Can't mint w/metaplex (paused).
+
+Going to mint natively. 
+https://github.com/ArweaveTeam/arweave
+https://docs.solana.com/integrations/exchange#token-mints
+https://www.youtube.com/watch?time_continue=169&v=35RO0lAEIxE&feature=emb_logo
+The docs:
+https://docs.metaplex.com/create-cand...
+
+The important links:
+https://github.com/HashLips/hashlips_...
+https://github.com/metaplex-foundatio...
+https://github.com/exiled-apes/candy-...
+
+Set the environment:
+solana config set --url https://api.devnet.solana.com
+
+The important commands:
+npx ts-node js/packages/cli/src/candy-machine-cli.ts upload ./assets --env devnet --keypair (PATH)
+
+npx ts-node js/packages/cli/src/candy-machine-cli.ts create_candy_machine --env devnet --keypair (PATH) 
+
+npx ts-node js/packages/cli/src/candy-machine-cli.ts update_candy_machine --keypair (PATH) --price 1 --date "19 Oct 2021 00:00:00 EST"
+
+Note: for the main net you want to replace all instances of "devnet" with "mainnet-beta".
+
+Also when you are done just run "yarn build" to build the app that you can host on a website.
+
+https://solscan.io/
+
 
 # Compete in tardigrade battles (2+ players - bet on winner + winner collects claws)
+## 
 
 # Exchange tardigrades (metaplex?)
 

@@ -14,8 +14,9 @@ Used for toll mechanism to use public smart contracts.
 # Token Account (SGS)
 SGSACCOUNT=7ahL3HAW76NCK7tvNXwmyCR1Nzvwjxz37GAaefa6r4EF
 
-# "storage": "arweave",
-Uploads to arweave via Metaplex Google Cloud function (works on devnet and mainnet)
+# "storage": "aws"
+“aws”	Uploads to AWS (must specify AWS Bucket name)
+Tried other options - too buggy.
 
 # Gatekeeper
 "While the unpredictable mint index provides some protection against bots, bots are still able to mint directly from the Candy Machine. If you want to make sure that only humans can mint from your project, you can enable the gatekeeper settings in your config.json with the following values:"
