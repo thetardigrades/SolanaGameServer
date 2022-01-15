@@ -18,6 +18,10 @@ platform-level note: Could do a hybrid approach - generate & push contract logic
 
 https://hackmd.io/@levicook/HJcDneEWF # Start here.
 
+Collection created (`python3 generate_metaplex_metadata.py`)
+https://docs.metaplex.com/candy-machine-v2/creating-candy-machine
+
+ts-node ./metaplex/js/packages/cli/src/candy-machine-v2-cli.ts upload -e devnet -k ~/dotfiles/devnet.json -cp config.json -c example ./sample_data/build/
 Need to figure out how to generate metadata from filenames. See generate_metaplex_metadata.py.
 
 Building anchor project:
