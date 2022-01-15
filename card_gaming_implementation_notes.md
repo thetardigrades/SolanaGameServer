@@ -110,7 +110,28 @@ Bot to post to Discord when NFTs sell: https://github.com/milktoastlab/SolanaNFT
 
 # Breed minted tardigrades
 ## Current status
-Can't mint w/metaplex (paused).
+Can't mint w/CMv2? (paused).
+❯ ts-node metaplex/js/packages/cli/src/candy-machine-v2-cli.ts mint_one_token \
+    -e devnet \
+    -k ~/dotfiles/config/solana-wallets/devnet.json \
+    -c example
+
+/Users/gabedottl/code/SGS/metaplex/js/packages/cli/src/candy-machine-v2-cli.ts:713
+    const candyMachine = new PublicKey(cacheContent.program.candyMachine);
+                                                    ^
+TypeError: Cannot read properties of undefined (reading 'program')
+    at Command.<anonymous> (/Users/gabedottl/code/SGS/metaplex/js/packages/cli/src/candy-machine-v2-cli.ts:713:53)
+    at Command.listener [as _actionHandler] (/Users/gabedottl/code/SGS/metaplex/js/packages/cli/node_modules/commander/lib/command.js:488:17)
+    at /Users/gabedottl/code/SGS/metaplex/js/packages/cli/node_modules/commander/lib/command.js:1227:65
+    at Command._chainOrCall (/Users/gabedottl/code/SGS/metaplex/js/packages/cli/node_modules/commander/lib/command.js:1144:12)
+    at Command._parseCommand (/Users/gabedottl/code/SGS/metaplex/js/packages/cli/node_modules/commander/lib/command.js:1227:27)
+    at Command._dispatchSubcommand (/Users/gabedottl/code/SGS/metaplex/js/packages/cli/node_modules/commander/lib/command.js:1050:25)
+    at Command._parseCommand (/Users/gabedottl/code/SGS/metaplex/js/packages/cli/node_modules/commander/lib/command.js:1193:19)
+    at Command.parse (/Users/gabedottl/code/SGS/metaplex/js/packages/cli/node_modules/commander/lib/command.js:897:10)
+    at Object.<anonymous> (/Users/gabedottl/code/SGS/metaplex/js/packages/cli/src/candy-machine-v2-cli.ts:992:9)
+    at Module._compile (node:internal/modules/cjs/loader:1095:14)
+
+https://docs.metaplex.com/candy-machine-v2/mint-tokens
 
 Going to mint natively. 
 https://github.com/ArweaveTeam/arweave
@@ -174,6 +195,15 @@ https://learn.figment.io/tutorials/pay-to-play-gaming-on-solana
 
 Unity has great tutorials for starting game developers:
 https://learn.unity.com/tutorial/working-with-animations-and-animation-curves?signup=true#600c8a28edbc2a3270428113
+
+This repository is the data source for the Solana Ecosystem page, located at solana.com/ecosystem:
+https://github.com/SuperChad69/add-superchad-ecosystem
+
+The game engine you waited for. Godot provides a huge set of common tools, so you can just focus on making your game without reinventing the wheel.
+
+Godot is completely free and open-source under the very permissive MIT license. No strings attached, no royalties, nothing. Your game is yours, down to the last line of engine code.
+https://godotengine.org/
+^Active interest in Solana discords.
 
 # Miscellaneous current news
 https://solflare.com/academy/solanas-nft-ecosystem/#:~:text=How%20do%20Solana%20NFTs%20work%3F%20Solana%20NFTs%20are,govern%20how%20tokens%20operate%20on%20the%20Solana%20blockchain.

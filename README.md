@@ -207,7 +207,7 @@ Blockchain interest over time: https://trends.google.com/trends/explore?date=tod
 ## Why gaming middleware?
 Game development has it's own unique requirements for backend systems to facilitate game mechanics (breeding, battle systems, characters, items, etc.)
 
-## Subscribe to early access?
+## Subscribe for early access?
 Contact me via tardigrades.online.
 
 ## Is Solana performant enough for my game idea?
