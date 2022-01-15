@@ -26,6 +26,14 @@ ts-node ./metaplex/js/packages/cli/src/candy-machine-v2-cli.ts upload -e devnet 
 Ha - skipped this: https://docs.metaplex.com/candy-machine-v2/configuration (see config.json)
 https://docs.civic.com/candy-machine-integration/adding-captcha-to-candy-machine-v2#terms-and-conditions - huh, civic.
 
+# TODO: for SGS, https://spl.solana.com/token#example-wrapping-sol-in-a-token
+$ spl-token transfer $SGS 50 $SGSACCOUNT
+Transfer 50 tokens
+  Sender: 7UX2i7SucgLMQcfZ75s3VXmZZY4YRUyJN9X1RgfMoDUi
+  Recipient: vines1vzrYbzLMRdu58ou5XTby4qAqVRLmqo36NKPTg
+  Recipient associated token account: F59618aQB8r6asXeMcB9jWuY6NEx1VduT9yFo1GTi1ks
+
+Signature: 5a3qbvoJQnTAxGPHCugibZTbSu7xuTgkxvF4EJupRjRXGgZZrnWFmKzfEzcqKF2ogCaF4QKVbAtuFx7xGwrDUcGd
 
 Need to figure out how to generate metadata from filenames. See generate_metaplex_metadata.py.
 
