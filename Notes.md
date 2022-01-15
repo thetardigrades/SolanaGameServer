@@ -3,6 +3,7 @@ Note: If you're curious to see existing SOTA game ergonomics on Solana: https://
 https://www.cnet.com/tech/computing/the-metaverse-isnt-what-you-think-it-is-because-we-dont-know-what-it-is/
 Public bet: The move into 'passports' or 'gaming' is FB building a self-sovereign identity plaform (like @H)
 
+config.json is CMv2: https://docs.metaplex.com/candy-machine-v2/configuration
 
 # TODO
  * Review Unity Multiplay API as an API starting point.

@@ -22,6 +22,11 @@ Collection created (`python3 generate_metaplex_metadata.py`)
 https://docs.metaplex.com/candy-machine-v2/creating-candy-machine
 
 ts-node ./metaplex/js/packages/cli/src/candy-machine-v2-cli.ts upload -e devnet -k ~/dotfiles/devnet.json -cp config.json -c example ./sample_data/build/
+
+Ha - skipped this: https://docs.metaplex.com/candy-machine-v2/configuration (see config.json)
+https://docs.civic.com/candy-machine-integration/adding-captcha-to-candy-machine-v2#terms-and-conditions - huh, civic.
+
+
 Need to figure out how to generate metadata from filenames. See generate_metaplex_metadata.py.
 
 Building anchor project:

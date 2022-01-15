@@ -69,6 +69,11 @@ Are you a game developer looking for a feature or solution for your game's backe
 # Help wanted
 Are you an experienced Rust programmer looking for Solana exposure or a Game developer? Reach out.
 
+## Opportunities
+* Create a fancy GitHub documentation site
+* Design & Build a game ontop of the demo network
+* Design APIs for game developers
+
 # License
 SGS is owned and operated by Tardigrade Life Sciences, Inc. Contact hi@tardigrades.store for licensing/use options.
 

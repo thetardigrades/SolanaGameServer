@@ -13,3 +13,6 @@
 [submodule "anchor-example"]
 	path = anchor-example
 	url = https://github.com/project-serum/anchor
+[submodule "hearttoken_old"]
+	path = hearttoken_old
+	url = git@github.com:GabeDottl/hearttoken_solana_template.git
