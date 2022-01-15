@@ -67,3 +67,14 @@ External References:
 
 # Miscellaneous news
 "Integrating blockchain in games well is so hard is because most of the infrastructure that’s actually needed doesn’t exist, isn’t mature enough, or isn’t great for games" - https://venturebeat.com/2021/05/20/forte-raises-185m-at-1b-valuation-for-blockchain-game-platform/
+https://github.com/Polygon-Academy/Web3GamingBootcamp_CN - Polygon + web3 gaming - ChainIDE: "A cloud based blockchaining API" - for EVMs
+
+# Cool new repos
+https://github.com/trending/rust?since=monthly
+https://github.com/bevyengine/bevy - A refreshingly simple data-driven game engine built in Rust
+https://github.com/tauri-apps/tauri - Build smaller, faster, and more secure desktop applications with a web frontend.
+https://github.com/dani-garcia/vaultwarden - BitWarden for Rust
+https://github.com/alacritty/alacritty - A cross-platform, OpenGL terminal emulator.
+https://github.com/RustScan/RustScan - brew install rustscan
+https://github.com/trending/developers/rust?since=monthly - find top Rust devs
+https://github.com/gakonst/foundry - Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.

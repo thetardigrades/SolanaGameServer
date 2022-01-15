@@ -16,3 +16,6 @@
 [submodule "hearttoken_old"]
 	path = hearttoken_old
 	url = git@github.com:GabeDottl/hearttoken_solana_template.git
+[submodule "private"]
+	path = private
+	url = git@github.com:GabeDottl/private.git
