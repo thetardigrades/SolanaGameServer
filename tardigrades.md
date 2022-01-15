@@ -37,3 +37,12 @@ https://www.nature.com/articles/sdata201663
 
 Note: Allegedly, "Tardigrade is Storj Grade".
 source: https://github.com/storj/tardigrade-blog/blob/a44ed0e9480079becce39a957dfddcb4ecda6910/site/content/post/business/announcing-a-campaign-for-a-new-logo.md
+
+[ℹ️ Website](https://tardigrades.online)
+[ℹ️ Code](https://tardigrades.fun)
+[ℹ️ Games](https://tardigrades.fun)
+[ℹ️ Art](https://tardigrades.art)
+[📺 IG](https://www.instagram.com/realTardigrades)
+[🐦 Twitter](https://twitter.com/realTardigrades)
+[📺 YouTube](https://www.youtube.com/channel/UC8Qh7oUf19xyHaBrjkyl6lw)
+[👄 Discord](https://discord.gg/2CS8T2Kq) - limited access

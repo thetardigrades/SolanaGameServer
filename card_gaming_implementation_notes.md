@@ -205,6 +205,13 @@ Godot is completely free and open-source under the very permissive MIT license. 
 https://godotengine.org/
 ^Active interest in Solana discords.
 
+Godot won't limit your creative endeavours, as it's capable of handling almost every project you can think of.
+
+"Godot is an incredibly versatile engine whose limits in terms of occlusion culling and 3D performance are likely not more than a few months from being negligible," says Ryan Hewer, project director at Little Red Dog Games, referring to the release of Godot 4.0 later this year.
+
+"At present, there's very, very little where I would say 'Godot is not best for that', with the exception of possibly very detailed first and third-person shooters. But with Godot 3.2 -- and more importantly Godot 4.0 -- you're going to see parity with most any other mainstream engine out there. Godot is advanced enough that I'm comfortable saying that most developers will be bottlenecked by their own skills rather than the tools in front of them."
+source: https://www.gamesindustry.biz/articles/2020-04-14-what-is-the-best-game-engine-is-godot-right-for-you
+
 # Miscellaneous current news
 https://solflare.com/academy/solanas-nft-ecosystem/#:~:text=How%20do%20Solana%20NFTs%20work%3F%20Solana%20NFTs%20are,govern%20how%20tokens%20operate%20on%20the%20Solana%20blockchain.
 https://github.com/zubr-exchange/cacherpc - Solana JSON-RPC caching server.
