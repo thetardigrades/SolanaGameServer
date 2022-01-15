@@ -86,6 +86,8 @@ Execution time: 0h:00m:07s sec
 ; Discord Metaplex Candy Machinev2 Discord subchannel!!! https://discord.com/channels/848060988636921856/898625218426339448
 Shame it's hard to inline paste into markdown docs from Visual Studio Code
 
+https://developers.cloudflare.com/workers/platform/sites/start-from-worker -- Here
+
 
 ## TODO: for SGS, https://spl.solana.com/token#example-wrapping-sol-in-a-token
 ## Miscellaneous
@@ -110,7 +112,7 @@ Excellent CMv2 walkthrough (1/10/22): https://twitter.com/marcelc63/status/14805
 https://github.com/kevinfaveri/solana-candy-factory
 https://github.com/exiled-apes/candy-machine-mint
 Bot to post to Discord when NFTs sell: https://github.com/milktoastlab/SolanaNFTBot
-
+https://mkyong.com/web/how-to-pretty-print-json-output-in-curl/
 
 # Breed minted tardigrades
 ## Current status
