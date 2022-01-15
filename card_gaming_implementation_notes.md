@@ -23,6 +23,21 @@ https://docs.metaplex.com/candy-machine-v2/creating-candy-machine
 
 ts-node ./metaplex/js/packages/cli/src/candy-machine-v2-cli.ts upload -e devnet -k ~/dotfiles/devnet.json -cp config.json -c example ./sample_data/build/
 
+https://docs.metaplex.com/candy-machine-v2/creating-candy-machine
+
+
+# Metaplex API (Rust crates): metaplex_token_metadata_test_client, metaplex_token_vault_test_client, mpl_auction, mpl_auction_house, mpl_gumdrop, mpl_metaplex, mpl_nft_packs, mpl_token_entangler, mpl_token_metadata, mpl_token_vault, nft_candy_machine
+https://metaplex-foundation.github.io/metaplex-program-library/mpl_token_metadata/
+# TODO: How to create cool Rust Crate docs: https://metaplex-foundation.github.io/metaplex-program-library/mpl_token_metadata/index.html?
+
+ts-node ~/metaplex/js/packages/cli/src/candy-machine-v2-cli.ts upload -e devnet -k ~/dotfiles/solana_wallet//devnet.json -cp config.json -c example ./sample_data
+
+Error: If spl-token-account or spl-token is set then sol-treasury-account cannot be set
+    at getCandyMachineV2Config (/Users/gabedottl/code/SGS/metaplex/js/packages/cli/src/helpers/various.ts:95:13)
+    at Command.<anonymous> (/Users/gabedottl/code/SGS/metaplex/js/packages/cli/src/candy-machine-v2-cli.ts:99:38)
+s/"solTreasuryAccount": "rmJDUHfhfyVSBkPrX6AYDYLG5yh9oWk2Sb7k1tHCQwN",//g
+
+
 Ha - skipped this: https://docs.metaplex.com/candy-machine-v2/configuration (see config.json)
 https://docs.civic.com/candy-machine-integration/adding-captcha-to-candy-machine-v2#terms-and-conditions - huh, civic.
 

@@ -17,6 +17,19 @@ SGSACCOUNT=7ahL3HAW76NCK7tvNXwmyCR1Nzvwjxz37GAaefa6r4EF
 # "storage": "arweave",
 Uploads to arweave via Metaplex Google Cloud function (works on devnet and mainnet)
 
+# Gatekeeper
+"While the unpredictable mint index provides some protection against bots, bots are still able to mint directly from the Candy Machine. If you want to make sure that only humans can mint from your project, you can enable the gatekeeper settings in your config.json with the following values:"
+"gatekeeper": {
+    "gatekeeperNetwork" : "ignREusXmGrscGNUesoU9mxfds9AiYTezUKex2PsZV6",
+    "expireOnUse" : true
+}
+
+
+CAUTION
+The number of items setting can only be updated after you create your CMv2 if you are using hiddenSettings. When hiddenSettings are not used, the number value is used to allocate the space required by the CMv2 account and therefore cannot be modified.
+
+In case you require to change the number of items after creating a CMv2 without hiddenSettings, you can withdraw rent of your current CMv2 and then create a new one.
+
 # Unused
 "ipfsInfuraProjectId": null,
 "ipfsInfuraSecret": null,
