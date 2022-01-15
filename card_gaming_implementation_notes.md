@@ -137,6 +137,7 @@ npx ts-node js/packages/cli/src/candy-machine-cli.ts update_candy_machine --keyp
 Note: for the main net you want to replace all instances of "devnet" with "mainnet-beta".
 
 Also when you are done just run "yarn build" to build the app that you can host on a website.
+source: https://www.youtube.com/watch?time_continue=169&v=35RO0lAEIxE&feature=emb_logo
 
 https://solscan.io/
 
