@@ -202,7 +202,6 @@ Blockchain interest over time: https://trends.google.com/trends/explore?date=tod
 ## Why gaming middleware?
 Game development has it's own unique requirements for backend systems to facilitate game mechanics (breeding, battle systems, characters, items, etc.)
 
-
 ## Is Solana performant enough for my game idea?
 As the software infrastructure and best practices evolve, SGS should allow game developers to
 have a high-speed, low-bandwidth global game engine @ Solana performance levels. See
