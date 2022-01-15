@@ -227,3 +227,5 @@ They're cute - see https://www.tardigrades.online.
 Share this with your favorite game developers or ask them what platform-level features they'd like built.
 
 Don't forget to like & subscribe. tardigrades.online
+
+Disclaimer: This project is an early stage Work-In-Progress and is not ready for production use.

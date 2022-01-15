@@ -36,10 +36,15 @@ Error: If spl-token-account or spl-token is set then sol-treasury-account cannot
     at getCandyMachineV2Config (/Users/gabedottl/code/SGS/metaplex/js/packages/cli/src/helpers/various.ts:95:13)
     at Command.<anonymous> (/Users/gabedottl/code/SGS/metaplex/js/packages/cli/src/candy-machine-v2-cli.ts:99:38)
 s/"solTreasuryAccount": "rmJDUHfhfyVSBkPrX6AYDYLG5yh9oWk2Sb7k1tHCQwN",//g
+https://issueexplorer.com/issue/metaplex-foundation/metaplex/798
 
+https://docs.metaplex.com/community#RPC - Community RPC services
 
 Ha - skipped this: https://docs.metaplex.com/candy-machine-v2/configuration (see config.json)
 https://docs.civic.com/candy-machine-integration/adding-captcha-to-candy-machine-v2#terms-and-conditions - huh, civic.
+
+RunNode RPC endpoint:
+https://app.runnode.com/projects
 
 # TODO: for SGS, https://spl.solana.com/token#example-wrapping-sol-in-a-token
 $ spl-token transfer $SGS 50 $SGSACCOUNT
@@ -101,6 +106,8 @@ https://learn.unity.com/tutorial/working-with-animations-and-animation-curves?si
 
 # Miscellaneous current news
 https://solflare.com/academy/solanas-nft-ecosystem/#:~:text=How%20do%20Solana%20NFTs%20work%3F%20Solana%20NFTs%20are,govern%20how%20tokens%20operate%20on%20the%20Solana%20blockchain.
+https://github.com/zubr-exchange/cacherpc - Solana JSON-RPC caching server.
+https://docs.solana.com/cluster/rpc-endpoints
 
 # Questions
 https://lwus.github.io/metaplex/ - what is this?
