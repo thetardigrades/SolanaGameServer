@@ -1,20 +1,17 @@
 [submodule "tardigrades-mint-machine"]
-	path = tardigrades-mint-machine
+	path = third_party_forked/tardigrades-mint-machine
 	url = https://github.com/GabeDottl/Tardigrades-Mint-Machine
 [submodule "nextjs-candy-machinev2"]
-	path = nextjs-candy-machinev2
+	path = third_party_pinned/nextjs-candy-machinev2
 	url = https://github.com/GabeDottl/next-candy-machinev2
-[submodule "metaplex.git"]
-	path = metaplex.git
-	url = git@github.com:metaplex-foundation/metaplex.git
 [submodule "metaplex"]
-	path = metaplex
+	path = third_party_pinned/metaplex
 	url = git@github.com:GabeDottl/metaplex.git
 [submodule "anchor-example"]
-	path = anchor-example
+	path = third_party_forked/anchor-example
 	url = https://github.com/project-serum/anchor
 [submodule "hearttoken_old"]
-	path = hearttoken_old
+	path = third_party_pinned/hearttoken_old
 	url = git@github.com:GabeDottl/hearttoken_solana_template.git
 [submodule "private"]
 	path = private
@@ -23,8 +20,8 @@
 	path = hashlips_art_engine
 	url = https://github.com/GabeDottl/hashlips_art_engine
 [submodule "wrangler"]
-	path = wrangler
+	path = third_party_pinned/wrangler
 	url = git@github.com:cloudflare/wrangler.git
 [submodule "metaplex-program-library"]
-	path = metaplex-program-library
+	path = third_party_pinne/dmetaplex-program-library
 	url = git@github.com:GabeDottl/metaplex-program-library.git
