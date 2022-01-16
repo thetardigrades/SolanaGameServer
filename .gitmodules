@@ -25,3 +25,9 @@
 [submodule "metaplex-program-library"]
 	path = third_party_pinne/dmetaplex-program-library
 	url = git@github.com:GabeDottl/metaplex-program-library.git
+[submodule "Solana-Defi-Vault"]
+	path = Solana-Defi-Vault
+	url = https://github.com/GabeDottl/Solana-Defi-Vault
+[submodule "third_party_pinned/Solana-Cove-Vault"]
+	path = third_party_pinned/Solana-Cove-Vault
+	url = https://github.com/GabeDottl/Solana-Cove-Vault
