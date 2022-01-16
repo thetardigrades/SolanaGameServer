@@ -40,7 +40,8 @@ For best understanding of the current state of this project, see todo_and_status
 *Solana Game Server is not directly owned or maintained by Solana Labs. The name 'Solana Game Server'
 is used instead of a codename to reduce ambiguity. Name suggestions welcome.
 
-Direct link to dashboard (WIP): tardigrades.fun
+permalink: solanagameserver.com
+web3 games (WIP): tardigrades.fun
 
 solana stake-authorize $W3 --stake-authority $W1 --new-stake-authority  \
     --fee-payer <KEYPAIR>
