@@ -12,7 +12,7 @@ config.json is CMv2: https://docs.metaplex.com/candy-machine-v2/configuration
  * https://heroiclabs.com/docs/nakama/client-libraries/unity-client-guide/ & https://www.photonengine.com/en/PUN
  * Check vulnerabilities: https://github.com/project-serum/sealevel-attacks/tree/master/programs
  * Much Later: Anti-cheating mechanics
- * 
+ * https://github.com/metaplex-foundation/metaplex-program-library/blob/master/.github/workflows/program-candy-machine.yml
 
 Core features:
 Wallet web integration plugin (solana unity plugin?)

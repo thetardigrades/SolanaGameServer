@@ -108,6 +108,9 @@ https://doc.rust-lang.org/book/title-page.html - review.
 https://dev.to/dabit3/the-complete-guide-to-full-stack-solana-development-with-react-anchor-rust-and-phantom-3291 - deferred.
 
 ## References
+Metaplex Issue Tracker
+https://github.com/metaplex-foundation/metaplex/issues?q=is%3Aissue+is%3Aopen+
+
 Excellent CMv2 walkthrough (1/10/22): https://twitter.com/marcelc63/status/1480570145193951234
 https://github.com/kevinfaveri/solana-candy-factory
 https://github.com/exiled-apes/candy-machine-mint
@@ -148,6 +151,71 @@ https://docs.metaplex.com/create-cand...
 
 Metaplex JS SDK
 https://docs.metaplex.com/sdk/js/getting-started
+
+https://github.com/metaplex-foundation/metaplex-program-library
+
+Metaplex is a protocol built on top of Solana that allows:
+
+Creating/Minting Non-Fungible Tokens;
+Starting A variety of auctions for primary/secondary sales;
+and Visualizing NFTs in a standard way across wallets and applications.
+
+Metaplex is comprised of two core components: an on-chain program, and a self-hosted front-end web3 application.
+https://github.com/metaplex-foundation/metaplex
+TODO: https://docs.metaplex.com/security-policy
+
+
+```
+# NFT Auction e2e
+
+1 allocate space for a mint account and a token account
+2 spl-token JS SDK createMint and createTokenAccount commands to create a new mint and a new token account of that mint. You then use the mintTo command to mint a single token to that token account.
+3 Token Metadata's create_metadata_account endpoint, naming it the "Bob's Cool NFT" mint with symbol "BOB" and you pass in a link to a picture of your Uncle Bob for the URI. This command creates a Metadata account with a PDA seed of ['metadata', metadata_program_id, your_mint_id] relative to the metadata_program_id.
+
+4 If you, need to turn this NFT into a Master Edition:
+4.5 create_master_edition endpoint on the Token Metadata contract which takes minting authority away from you, and creates a new Master Edition pda that contains information about how large a supply you want to have.
+
+Limited Edition prints! Let's say we want to auction off three such prints.
+
+5 create a token vault using the init_vault endpoint of the token vault contract. 
+6 store our master edition token in it by adding it to the vault using the add_token_to_inactive_vault endpoint. This will create a safety deposit box in the vault that contains the the token.
+7 call the activate_vault command which Activates the vault, locking everything inside.
+
+Now that your token account has a bonafide NFT Master Edition in it, we can run an auction where we auction off 
+
+Run combine_vault (opens it to allow the current authority to optionally withdraw the tokens inside it)
+Note: Auction Manager can only work with vaults in this state, which is why we have to go through the Activation phase
+
+create the auction (via the create_auction command on the Auction contract), unstarted, with the 'resource' being this vault
+
+Now have an auction and a vault, call init_auction_manager on Metaplex contract with both accounts (+others) to create an AuctionManager, which ties them both together.
+Note: init_auction_manager takes a special struct called AuctionManagerSettings that allows one to specify how many winners there are and what winners get which items from which safety deposit box
+Note: AuctionManager is in an invalidated state; need to validate it by validating that the safety deposit boxes we provided to it in the vault are actually what we said are in them when we provided the AuctionManager with it's settings struct.
+
+Before validation, call set_authority on both vault and auction to change authority to the auction manager, so that it has control over both of those structs. This is a requirement for the validation phase and the rest of the contract lifecycle. Now you no longer have control over your items.
+
+We call the validate_safety_deposit_box endpoint on the Metaplex contract with the one safety deposit box in the vault, and the logic in this endpoint checks that there are exactly 3 printing tokens from the right mint in this box, matching the 3 printing tokens we promised it would have in our AuctionManagerSettings. Once we do this, and because this is the only safety deposit box in the vault, the AuctionManager is now validated.
+
+We now call start_auction on the Metaplex contract, which, because the AuctionManager has authority over the Auction, calls start_auction on the Auction contract, and the auction begins!
+
+Users can go and call place_bid on the Auction contract to place bids. When they do this, tokens of the token_mint type used by the auction are taken from the account they provide, tied to their main wallet, and stored in bidder pot accounts in the auction contract.
+
+sIn order to update a bid, a user must first cancel the original bid, and then place a new bid.
+
+Once the auction is over, a user can refund their bid if they did not win by calling cancel_bid again. Winners of the auction cannot cancel their bids.
+
+The winner of a bid creates a mint with decimals 0, a token account with 1 token in it, and calls the redeem_printing_v2_bid endpoint on the Metaplex contract, all in a single transaction. This token is now officially a Limited Edition of the "Bob's Cool NFT" Master Edition NFT!
+
+You, the auctioneer, visits /#/auction/id/billing and hit the settle button. This first iterates over all three bidders and for each wallet used, calls claim_bid on the Metaplex contract, which proxy-calls a claim_bid on the Auction contract, telling it to dump the winner's payment into an escrow account called accept_payment on the AuctionManager struct. It has the same token type as the auction. Once all payments have been collected, the front end then calls the empty_payment_account endpoint one time (since you are the only creator on the Metadata being sold) and the funds in this escrow are paid out to a token account provided of the same type owned by you.
+
+Note that our front end reference implementation uses SOL as the "token type." This has some special caveats, namely that SOL isn't really an "spl token." It instead has a work-around called the "Wrapped SOL mint." This is a special mint that is often used in a transient account. What this means is that when we place a bid, we actually make a one-off system account, transfer lamports to it of your bid amount + rent, then label it an spl-token account of the wrapped sol type, use it to place the bid, then close it all in one transaction.
+
+Special machinations in the spl token program then make this wrapped sol token account have a number of tokens with the proper decimals that map to the amount of SOL you transferred to it. We do a similar operation with cancelling, where we make a transient wrapped sol account, transfer cancelled bid funds to it, and then close the account, transferring funds out all in a single transaction. This is all done for ease of use. With settlements, when funds are disbursed to artists, we actually make a WSOL account for them and they have to close it by hand via a dropdown menu.
+
+The protocol operates off of generic spl tokens and has no opinions about WSOL specifically, but the front end reference implementation does. So take careful note!
+Original doc source: metaplex
+
+
 
 The important links:
 https://github.com/HashLips/hashlips_...
