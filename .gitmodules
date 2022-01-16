@@ -9,7 +9,7 @@
 	url = git@github.com:metaplex-foundation/metaplex.git
 [submodule "metaplex"]
 	path = metaplex
-	url = git@github.com:metaplex-foundation/metaplex.git
+	url = git@github.com:GabeDottl/metaplex.git
 [submodule "anchor-example"]
 	path = anchor-example
 	url = https://github.com/project-serum/anchor
