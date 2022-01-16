@@ -25,3 +25,6 @@
 [submodule "wrangler"]
 	path = wrangler
 	url = git@github.com:cloudflare/wrangler.git
+[submodule "metaplex-program-library"]
+	path = metaplex-program-library
+	url = git@github.com:GabeDottl/metaplex-program-library.git

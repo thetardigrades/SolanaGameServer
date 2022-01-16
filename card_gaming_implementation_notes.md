@@ -146,6 +146,9 @@ https://www.youtube.com/watch?time_continue=169&v=35RO0lAEIxE&feature=emb_logo
 The docs:
 https://docs.metaplex.com/create-cand...
 
+Metaplex JS SDK
+https://docs.metaplex.com/sdk/js/getting-started
+
 The important links:
 https://github.com/HashLips/hashlips_...
 https://github.com/metaplex-foundatio...
