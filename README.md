@@ -186,6 +186,11 @@ https://docs.google.com/document/d/15X4FWa8i-tR7nsjn_CncPbc80zsGmiMD9bMKOUmTzzI/
 ## Why Solana?
 "From all the “Ethereum killers”, Solana emerged in 2021 as the hottest one, with the most engaged developer community. Through a unique blend of eight technological innovations (including Proof of History), it alleviates many of the problems that plague other blockchains and has been able to reach record levels of speed and transaction volumes." - source: https://learn.figment.io/protocols/solana
 
+Visa-scale + permanent, public transaction history + trustless compute = best web3 game experience*
+
+*: Assuming the infrastructure is in place
+https://solana.com/news/proof-of-history---a-clock-for-blockchain
+
 In effect, you have faster, cheaper, more reliable compute (but waaaay less volatile memory)
 than other blockchains.
 
