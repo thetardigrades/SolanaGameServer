@@ -1,5 +1,7 @@
 Solana Game Server* is the first decentralized Game Server designed for game developers & web3.
 
+(Think web3 SDK for game developers as a service)
+
 Web2 gaming today is entrenched by large game studios and aging freemium model franchises.
 
 Web2 game models suck and web3 has the potential to unlock novel differentiation and monetization
