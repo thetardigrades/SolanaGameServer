@@ -13,6 +13,9 @@
 [submodule "hearttoken_old"]
 	path = third_party_pinned/hearttoken_old
 	url = git@github.com:GabeDottl/hearttoken_solana_template.git
+[submodule "sdk"]
+	path = sdk
+	url = git@github.com:GabeDottl/SolanaGameServer-SDK.git
 [submodule "private"]
 	path = private
 	url = git@github.com:GabeDottl/private.git
