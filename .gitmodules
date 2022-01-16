@@ -16,9 +16,6 @@
 [submodule "private"]
 	path = private
 	url = git@github.com:GabeDottl/private.git
-[submodule "hashlips_art_engine"]
-	path = hashlips_art_engine
-	url = https://github.com/GabeDottl/hashlips_art_engine
 [submodule "wrangler"]
 	path = third_party_pinned/wrangler
 	url = git@github.com:cloudflare/wrangler.git
