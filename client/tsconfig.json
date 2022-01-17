@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "declaration": true,
+    "outDir": "./lib",
+    "strict": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "noImplicitAny": false,
+  },
+  "include": ["src/**/*.ts", "tests/**/*.ts"],
+  // "include": ["src", "tests"],
+  "exclude": ["node_modules"]
+}
