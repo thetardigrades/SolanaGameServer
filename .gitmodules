@@ -16,9 +16,6 @@
 [submodule "sdk"]
 	path = sdk
 	url = git@github.com:GabeDottl/SolanaGameServer-SDK.git
-[submodule "private"]
-	path = private
-	url = git@github.com:GabeDottl/private.git
 [submodule "wrangler"]
 	path = third_party_pinned/wrangler
 	url = git@github.com:cloudflare/wrangler.git
