@@ -15,7 +15,7 @@
 	url = git@github.com:GabeDottl/hearttoken_solana_template.git
 [submodule "sdk"]
 	path = sdk
-	url = git@github.com:GabeDottl/SolanaGameServer-SDK.git
+	url = git@github.com:thetardigrades/SolanaGameServer-SDK.git
 [submodule "wrangler"]
 	path = third_party_pinned/wrangler
 	url = git@github.com:cloudflare/wrangler.git
@@ -34,3 +34,6 @@
 [submodule "third_party_pinned/solana-anchor-react-minimal-example"]
 	path = third_party_pinned/solana-anchor-react-minimal-example
 	url = git@github.com:256hax/solana-anchor-react-minimal-example.git
+[submodule "third_party_pinned/godot"]
+	path = third_party_pinned/godot
+	url = git@github.com:thetardigrades/godot.git

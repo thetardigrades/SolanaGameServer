@@ -13,6 +13,8 @@ config.json is CMv2: https://docs.metaplex.com/candy-machine-v2/configuration
  * Check vulnerabilities: https://github.com/project-serum/sealevel-attacks/tree/master/programs
  * Much Later: Anti-cheating mechanics
  * https://github.com/metaplex-foundation/metaplex-program-library/blob/master/.github/workflows/program-candy-machine.yml
+ * Learn & support Godot?: https://www.patreon.com/godotengine (https://godotengine.org/features)
+ * docs/Roadmap.md
 
 Core features:
 Wallet web integration plugin (solana unity plugin?)
@@ -81,3 +83,19 @@ https://github.com/alacritty/alacritty - A cross-platform, OpenGL terminal emula
 https://github.com/RustScan/RustScan - brew install rustscan
 https://github.com/trending/developers/rust?since=monthly - find top Rust devs
 https://github.com/gakonst/foundry - Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.
+
+# Game development
+https://spin.atomicobject.com/2020/06/28/learn-indie-game-dev/
+
+https://www.youtube.com/channel/UCLzFt-NdfCm8WFKTyqD0yJw
+
+Project Setup and Intro to Godot (Godot Retro Text Adventure Tutorial #1)
+https://www.youtube.com/watch?v=wCI650TDhHA&ab_channel=jmbiv
+https://www.youtube.com/playlist?list=PLpwc3ughKbZfkSPko3azFD4dd4IHSiQeE
+
+## Engine
+https://godotengine.org/ (free, easy to learn)
+
+## Assets
+https://itch.io/
+https://opengameart.org/
