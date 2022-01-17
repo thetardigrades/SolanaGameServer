@@ -38,8 +38,6 @@ On-chain reputation for Solana apps
 https://fatboardgames.com/5-most-common-game-mechanic/
 * Worker placement, engine building, Card Draft, Tile Placement, Cooperative
 
-https://quiet-ancient-glade.solana-devnet.quiknode.pro/44b29cb7843266e440cc0a81da0b2883bb66be13/
-
 * On-chain moderation
 battle resolution system: bfs attacks
 
