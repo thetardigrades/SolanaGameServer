@@ -45,6 +45,8 @@ is used instead of a codename to reduce ambiguity. Name suggestions welcome.
 permalink: solanagameserver.com
 web3 games (WIP): tardigrades.fun
 
+possible new names: web3 game maker, <suggestions>
+
 solana stake-authorize $W3 --stake-authority $W1 --new-stake-authority  \
     --fee-payer <KEYPAIR>
 
