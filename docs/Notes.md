@@ -53,6 +53,9 @@ Create New Coins
 Transfer In/Out coins
 
 External References:
+
+* https://stedolan.github.io/jq/ - jq is like sed for JSON data - you can use it to slice and filter and map and transform structured data with the same ease that sed, awk, grep and friends let you play with text. jq is written in portable C, and it has zero runtime dependencies. You can download a single binary, scp it to a far away machine of the same type, and expect it to work. jq can mangle the data format that you have into the one that you want with very little effort, and the program to do so is often shorter and simpler than you'd expect.
+* https://www.stardust.gg/ - "Stardust is the easiest way to create and implement NFTs in your game" - mint across chains (orig. Solana in 2020?). Seems too early for its time? https://twitter.com/StardustPlatfrm?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor - dead
 * https://defiland.app/ - DeFi Land is a multi-chain agriculture-simulation game created to gamify Decentralized Finance. Our game will have all the features that traditional platforms have but it will be gathered all in one place. Players will be able to start playing the game for free, grind their way up to the play-2-earn tier, compete with others, craft, trade and more.
 * https://www.solarity.xyz/ - "Nobody should be able to rule the Metaverse so it’s vital to develop a common
   infrastructure that enables anyone to develop and deploy their dreams for a better future." - similar idea,

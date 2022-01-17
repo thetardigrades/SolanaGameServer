@@ -31,3 +31,9 @@
 [submodule "third_party_pinned/Solana-Cove-Vault"]
 	path = third_party_pinned/Solana-Cove-Vault
 	url = https://github.com/GabeDottl/Solana-Cove-Vault
+[submodule "third_party_pinned/untrusted/solanamonitoring"]
+	path = third_party_pinned/untrusted/solanamonitoring
+	url = git@github.com:solstaker/solanamonitoring.git
+[submodule "third_party_pinned/solana-anchor-react-minimal-example"]
+	path = third_party_pinned/solana-anchor-react-minimal-example
+	url = git@github.com:256hax/solana-anchor-react-minimal-example.git
