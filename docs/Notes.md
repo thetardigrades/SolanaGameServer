@@ -1,18 +1,35 @@
 # TODO
- * Review Unity Multiplay API as an API starting point.
- * MVP use-case:
- * Propose Game Developer-oriented APIs for proposed features
- * https://heroiclabs.com/docs/nakama/client-libraries/unity-client-guide/ & https://www.photonengine.com/en/PUN
+ * fix functional & unit tests
+ * tardigrades game design
+
+# Eventual TODO
  * Check vulnerabilities: https://github.com/project-serum/sealevel-attacks/tree/master/programs
  * Much Later: Anti-cheating mechanics
  * https://github.com/metaplex-foundation/metaplex-program-library/blob/master/.github/workflows/program-candy-machine.yml
  * Learn & support Godot?: https://www.patreon.com/godotengine (https://godotengine.org/features)
  * docs/Roadmap.md
+
+# ~Daily
+1/18/22
+https://www.theverge.com/2022/1/18/22889258/microsoft-activision-blizzard-xbox-acquisition-call-of-duty-overwatch
+Microsoft's making moves towards a 'gaming metaverse' - smart. I <3 Diablo & Star Craft.
+
+https://mobidictum.biz/loop-games-pethereum-io-blockchain-games-platform-investment/
+
+"WELCOME TO THE KINGDOM! A DeFi game built on the blockchain, designed with useable NFTs"
+https://defikingdoms.com/
+Trending in the US:
+https://trends.google.com/trends/explore?geo=US&q=defi%20kingdoms
+
+Gamefi is trending up:
+https://trends.google.com/trends/explore?geo=US&q=gamefi
+
 January 17 2022
 Basic partial integration test working on Cove
 Fixing functional test
 Program file data not available for token_test (TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA)', /Users/gabedottl/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-program-test-1.9.4/src/lib.rs:684:17
 note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+https://explorer.solana.com/address/TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA?cluster=devnet
 
 Typecript Solana wallet (TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA)
 https://github.com/Muffinswap/SNS-web/blob/3fd78eb521ac38440348fe904149d32ba749fb60/src/web3/solana/wallet.ts

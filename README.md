@@ -116,6 +116,7 @@ Reach out if you're a game developer interested in using our platform.
 
 ## Where's the Discord?
 Avoiding the noise - checkout tardigrades.online for contact info, or make an issue here.
+January 2022: We do have Reddit: https://www.reddit.com/r/solanagameserver
 
 ## Where's the latest info?
 See Notes.md.
