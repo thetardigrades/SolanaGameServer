@@ -46,3 +46,6 @@
 [submodule "third_party_forked/hashlips_art_engine"]
 	path = third_party_forked/hashlips_art_engine
 	url = git@github:GabeDottl/hashlips_art_engine
+[submodule "third_party_pinned/anchorpy"]
+	path = third_party_pinned/anchorpy
+	url = git@github.com:GabeDottl/anchorpy.git

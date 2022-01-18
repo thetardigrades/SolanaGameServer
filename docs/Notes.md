@@ -1,10 +1,3 @@
-Note: If you're curious to see existing SOTA game ergonomics on Solana: https://learn.figment.io/tutorials/pay-to-play-gaming-on-solana
-
-https://www.cnet.com/tech/computing/the-metaverse-isnt-what-you-think-it-is-because-we-dont-know-what-it-is/
-Public bet: The move into 'passports' or 'gaming' is FB building a self-sovereign identity plaform (like @H)
-
-config.json is CMv2: https://docs.metaplex.com/candy-machine-v2/configuration
-
 # TODO
  * Review Unity Multiplay API as an API starting point.
  * MVP use-case:
@@ -15,6 +8,18 @@ config.json is CMv2: https://docs.metaplex.com/candy-machine-v2/configuration
  * https://github.com/metaplex-foundation/metaplex-program-library/blob/master/.github/workflows/program-candy-machine.yml
  * Learn & support Godot?: https://www.patreon.com/godotengine (https://godotengine.org/features)
  * docs/Roadmap.md
+January 17 2022
+Basic partial integration test working on Cove
+Fixing functional test
+Program file data not available for token_test (TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA)', /Users/gabedottl/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-program-test-1.9.4/src/lib.rs:684:17
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+Typecript Solana wallet (TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA)
+https://github.com/Muffinswap/SNS-web/blob/3fd78eb521ac38440348fe904149d32ba749fb60/src/web3/solana/wallet.ts
+
+
+config.json is CMv2: https://docs.metaplex.com/candy-machine-v2/configuration
+
 
 Core features:
 Wallet web integration plugin (solana unity plugin?)
