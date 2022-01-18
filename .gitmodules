@@ -42,7 +42,7 @@
 	url = git@github.com:solana-labs/dapp-scaffold.git
 [submodule "third_party_forked/git-submodule-tools"]
 	path = third_party_forked/git-submodule-tools
-	url = git@github.com:kollerma/git-submodule-tools.git
+	url = git@github.com:GabeDottl/git-submodule-tools.git
 [submodule "third_party_forked/hashlips_art_engine"]
 	path = third_party_forked/hashlips_art_engine
 	url = https://github.com/GabeDottl/hashlips_art_engine
