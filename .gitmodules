@@ -1,15 +1,15 @@
 [submodule "tardigrades-mint-machine"]
 	path = third_party_forked/tardigrades-mint-machine
-	url = https://github.com/GabeDottl/Tardigrades-Mint-Machine
+	url = git@github:GabeDottl/Tardigrades-Mint-Machine
 [submodule "nextjs-candy-machinev2"]
 	path = third_party_pinned/nextjs-candy-machinev2
-	url = https://github.com/GabeDottl/next-candy-machinev2
+	url = git@github:GabeDottl/next-candy-machinev2
 [submodule "metaplex"]
 	path = third_party_pinned/metaplex
 	url = git@github.com:GabeDottl/metaplex.git
 [submodule "anchor-example"]
 	path = third_party_forked/anchor-example
-	url = https://github.com/project-serum/anchor
+	url = git@github:project-serum/anchor
 [submodule "hearttoken_old"]
 	path = third_party_pinned/hearttoken_old
 	url = git@github.com:GabeDottl/hearttoken_solana_template.git
@@ -24,10 +24,10 @@
 	url = git@github.com:GabeDottl/metaplex-program-library.git
 [submodule "Solana-Defi-Vault"]
 	path = Solana-Defi-Vault
-	url = https://github.com/GabeDottl/Solana-Defi-Vault
+	url = git@github:GabeDottl/Solana-Defi-Vault
 [submodule "third_party_pinned/Solana-Cove-Vault"]
 	path = third_party_pinned/Solana-Cove-Vault
-	url = https://github.com/GabeDottl/Solana-Cove-Vault
+	url = git@github:GabeDottl/Solana-Cove-Vault
 [submodule "third_party_pinned/untrusted/solanamonitoring"]
 	path = third_party_pinned/untrusted/solanamonitoring
 	url = git@github.com:solstaker/solanamonitoring.git
@@ -45,4 +45,4 @@
 	url = git@github.com:GabeDottl/git-submodule-tools.git
 [submodule "third_party_forked/hashlips_art_engine"]
 	path = third_party_forked/hashlips_art_engine
-	url = https://github.com/GabeDottl/hashlips_art_engine
+	url = git@github:GabeDottl/hashlips_art_engine
