@@ -37,3 +37,6 @@
 [submodule "third_party_pinned/godot"]
 	path = third_party_pinned/godot
 	url = git@github.com:thetardigrades/godot.git
+[submodule "third_party_pinned/dapp-scaffold"]
+	path = third_party_pinned/dapp-scaffold
+	url = git@github.com:solana-labs/dapp-scaffold.git

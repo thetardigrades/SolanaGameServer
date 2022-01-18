@@ -1,4 +1,4 @@
-Solana Game Server* is the first decentralized Game Server designed for game developers & web3.
+Solana Game Server* is the first decentralized Game Server (aka web3 game server) designed for game devs.
 
 (Think web3 SDK for game developers as a service)
 
