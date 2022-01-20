@@ -10,6 +10,12 @@
  * docs/Roadmap.md
 
 # ~Daily
+1/19/2022
+SuperTokens is an open core alternative to proprietary login providers like Auth0 or AWS Cognito
+https://github.com/supertokens/supertokens-core 
+https://supertokens.io/use-oss
+docker run -p 3567:3567 -d registry.supertokens.io/supertokens/supertokens-mongodb
+
 1/18/22
 https://www.theverge.com/2022/1/18/22889258/microsoft-activision-blizzard-xbox-acquisition-call-of-duty-overwatch
 Microsoft's making moves towards a 'gaming metaverse' - smart. I <3 Diablo & Star Craft.
