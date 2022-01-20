@@ -1,3 +1,4 @@
+# Solana Game Server
 Solana Game Server* is the first decentralized Game Server (aka web3 game server) designed for game devs.
 
 # Why
