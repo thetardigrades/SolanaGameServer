@@ -1,13 +1,16 @@
 Solana Game Server* is the first decentralized Game Server (aka web3 game server) designed for game devs.
 
-(Think web3 SDK for game developers as a service)
-
-Web2 gaming today is entrenched by large game studios and aging freemium model franchises.
+# Why
+Web2 gaming today is entrenched by large game studios often with aged freemium models, franchises and
+[toxic work environments](https://theconversation.com/microsoft-purchase-of-activision-blizzard-wont-clean-up-gamer-culture-overnight-5-essential-reads-about-sexual-harassment-and-discrimination-in-gaming-and-tech-175202).
 
 Web2 game models suck and web3 has the potential to unlock novel differentiation and monetization
 mechanisms for small and large games alike.
 
-The most popular 'crypto games' today are limited in their complexity by their blockchain (Ethereum)
+SGS hopes to democratize the global gaming landscape by enabling the smallest teams of talented game
+makers to work together to build successful, global-scale, play-to-earn web3 games.
+
+The most popular web3 games ('crypto games') today are limited in their complexity by their blockchain (Ethereum)
 or the complexity of building secure, interesting blockchain-based mechanics (Solana et al).
 
 Game developers are held back from crypto by a few holdups:
