@@ -29,9 +29,6 @@ web3 with Solana by building the best, secure, game-oriented smart contracts on 
 Why? Because Game development on Solana is *challenging*. Reference: See this *42p* document on
 how to build play-to-earn Solana games: https://learn.figment.io/tutorials/pay-to-play-gaming-on-solana.
 
-It's possible to build amazing games on Solana but it's a PITA and TLS wants to make it as easy
-as building a web2 game.
-
 Code will be published here and deployed to Solana mainnet periodically. Fees (TBD) will be baked
 into the smart contract. A CDN + Endpoint solution will be provided as a service using said fees.
 The contract will allow creating custom coins and operating within the Solana Game Server. Code
