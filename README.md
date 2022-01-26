@@ -26,10 +26,11 @@ Game developers are held back from crypto by a few holdups:
 SGS endeavors to make it easier for game developers to take their web2 games and adapt them to
 web3 with Solana by building the best, secure, game-oriented smart contracts on Solana.
 
-Why? Because Game development on Solana is *challenging*. Reference: See this *42p* document on
-how to build play-to-earn Solana games: https://learn.figment.io/tutorials/pay-to-play-gaming-on-solana.
+Why? Because Game development on Solana is can be challenging, particularly for non-blockchain devs compared
+to more friendly game engines. Reference: See this *42p* document on how to build play-to-earn Solana games:
+https://learn.figment.io/tutorials/pay-to-play-gaming-on-solana.
 
-Code will be published here and deployed to Solana mainnet periodically. Fees (TBD) will be baked
+Code for SGS will be published here and deployed to Solana mainnet periodically once created. Fees (TBD) will be baked
 into the smart contract. A CDN + Endpoint solution will be provided as a service using said fees.
 The contract will allow creating custom coins and operating within the Solana Game Server. Code
 & documentation is public by-default to encourage community involvement.
