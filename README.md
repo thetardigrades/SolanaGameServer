@@ -231,8 +231,6 @@ Phase 2: Abstract out the tardigrades and generalize
 		b. Define your own battle rules (e.g. strengths/weakenesses, special abilities, etc.)
 		c. Make it easier to build Hearthstone/Pokemon/Magic/Axie Infinity-like games on Solana
 Phase 3: Add functionality based on feedback & expand into adjacent verticals & economic models
-![image](https://user-images.githubusercontent.com/3946760/151261601-b2bf9954-1bee-4c4c-8b53-03779013b7d5.png)
-
 
 ## Is Solana performant enough for my game idea?
 As the software infrastructure and best practices evolve, SGS should allow game developers to
