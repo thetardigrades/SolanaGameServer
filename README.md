@@ -49,9 +49,6 @@ web3 games (WIP): tardigrades.fun
 
 possible new names: web3 game maker, <suggestions>
 
-solana stake-authorize $W3 --stake-authority $W1 --new-stake-authority  \
-    --fee-payer <KEYPAIR>
-
 # Possible features (sorted by priority)
 - Echo + Log and Broadcast Messages
 - Stable, free non-blockchain API for testing
