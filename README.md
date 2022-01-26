@@ -221,6 +221,19 @@ Game development has it's own unique requirements for backend systems to facilit
 ## Subscribe for early access?
 Contact me via tardigrades.online.
 
+## Roadmap
+   
+Phase 1: Build Crypto Tardigrades (Q122) NFT game on Solana reusing as much existing infrastructure as possible - and mostly in the public to build a following. The game will be minimalist, but functional - and with NFTs that can battle and change over-time according to fixed rules. Goal is to get something launched & judge interest.
+   a. Tardigrades on mars
+
+Phase 2: Abstract out the tardigrades and generalize
+		a. Launch your own species
+		b. Define your own battle rules (e.g. strengths/weakenesses, special abilities, etc.)
+		c. Make it easier to build Hearthstone/Pokemon/Magic/Axie Infinity-like games on Solana
+Phase 3: Add functionality based on feedback & expand into adjacent verticals & economic models
+![image](https://user-images.githubusercontent.com/3946760/151261601-b2bf9954-1bee-4c4c-8b53-03779013b7d5.png)
+
+
 ## Is Solana performant enough for my game idea?
 As the software infrastructure and best practices evolve, SGS should allow game developers to
 have a high-speed, low-bandwidth global game engine @ Solana performance levels. See
